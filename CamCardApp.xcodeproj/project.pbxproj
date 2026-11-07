@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0285611F7D50E9DDA6972E7C /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B56F3BD563A3CFBA5E5F4 /* CardRepository.swift */; };
+		1BC3F12DAED8E01386BC891F /* CardImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C2A44C77986387E72407C /* CardImageLoader.swift */; };
+		1F22CABD28AAACE6A2C58D14 /* ManualCardQuad.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7874EC88E38306736BD833 /* ManualCardQuad.swift */; };
+		201F2D82808376DC40FCA04A /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1843A6FFA306B93DF9C1DB00 /* CameraCaptureView.swift */; };
+		20AA6DB64E64A1543AD2C48F /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79872C30408E4BCA5F101FB /* RootView.swift */; };
+		2153DFEC170CECE34A91D615 /* CamCardCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2285720BEA3E8669A03F51 /* CamCardCloneApp.swift */; };
+		24A7C19A538D8F92174BA6B4 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44181D265BEE1D790183E8ED /* CardImageView.swift */; };
+		254B265B40C74ABBC58BED44 /* CardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86F19C5A2ED3F67BF07ABA1 /* CardDetailViewModel.swift */; };
+		26D531A04D0A0F9A5B10B699 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17482302E649017A228AB344 /* CardListView.swift */; };
+		29E934B16072B2FCE0AAC536 /* AppPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6446F9F8D593964F2A60EA /* AppPreviews.swift */; };
+		30C60930FD178110AA4B227C /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D64072846003092AAF99F /* ToastView.swift */; };
+		3862FC3C47B3E2BE2E33F4C6 /* CardCorrectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46C6F0AB3C2A3594D2830D /* CardCorrectionView.swift */; };
+		39F9A86B0BA4B08B5F5319A0 /* MockCardDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F475113D72D787EFFDDEA99 /* MockCardDataHelper.swift */; };
+		4146A603D422D91E74ED3E61 /* SampleCardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363F07882345DF89E9526B0C /* SampleCardFactory.swift */; };
+		44689943B501168AFF1C71EE /* CameraCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF0CFAC6EE70A50E5AEB7F /* CameraCaptureViewModel.swift */; };
+		460805717A262AEABBE8BC6B /* CardQuadEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E202442415B8A6870FBF48 /* CardQuadEditorView.swift */; };
+		48C33FFF77B3C9D3B59FA68C /* CardScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39947863B5B60C636521254 /* CardScannerViewModel.swift */; };
+		4908CBAC7F37A7F3555332B0 /* CardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC16242F7F1A092DFD57C4 /* CardStore.swift */; };
+		62A0EE410D317CA99E03E28F /* CardFormFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB5A3EFF9AED7FFCA2F883 /* CardFormFieldRow.swift */; };
+		6401B7978200AE5083DD1011 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832231C7A9AFCD961E44B4E6 /* CardDetailView.swift */; };
+		6530B884AD47FAAD7673FF68 /* ImagePreviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E25F3F08A4BB1FC0709B86 /* ImagePreviewSheet.swift */; };
+		6DD658C9900A68536DE5C9AF /* CardFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A1DD60B5FD621E0FCDAC6 /* CardFlowUITests.swift */; };
+		6EDA4427F97C991D2B047C6E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD7F0C735036B7F354AF894 /* AppTheme.swift */; };
+		6F0E93906D762D43742E1802 /* CardScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB10489E25708934679D22B /* CardScannerView.swift */; };
+		7DC81B0E4DC1014526DAE6D2 /* CardFormValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312A39CBD95EF733FCC644B2 /* CardFormValues.swift */; };
+		9085C9C7AFD94793D38CF9D6 /* BusinessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63923EAD003583F9A75BF2D1 /* BusinessCard.swift */; };
+		90D2E78869D0D7A48F67F78B /* ContactExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72361E260062C32940BB92D4 /* ContactExporter.swift */; };
+		93D149241D10CE201BE19ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413646D6A466473908BC673 /* Foundation.framework */; };
+		95C3A535CEA7AD6ADD0DDB85 /* ReferenceSuiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A953C9E2C700E081D995C8F4 /* ReferenceSuiteUITests.swift */; };
+		AB4998BF32DE0766FAF3977E /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0836CA9060BA83C9F95E3 /* ShareSheet.swift */; };
+		B26BB7600E8DC235271D877A /* CardCorrectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBDEDAA3B9750B20B50A21 /* CardCorrectionViewModel.swift */; };
+		BAB1B784DFC656B752F6C429 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08265CC7FEC0630D99A378FD /* CardListViewModel.swift */; };
+		CCF4D143AF69A0A5D663735F /* CardImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9483E34CA739A7C203E65 /* CardImageFileManager.swift */; };
+		DE8CC052B8365CFB602651D0 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02ECF674F82A5ECA9916EADE /* AppEnvironment.swift */; };
+		E72E2B982A67B1B100D11E0C /* CardScanPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888FD3541BD661E079D34CBD /* CardScanPipeline.swift */; };
+		F0EC12FE04C92DA912C0E86A /* ScanDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D94D2E684A820F128F92EE6 /* ScanDraft.swift */; };
+		F236A848BFC7D6A7122CE6C6 /* BusinessCardFieldParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C6FC4E76E16E55F67D50D /* BusinessCardFieldParser.swift */; };
+		F67AC527225D5A93E8BB7289 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCE1CBBC673B75ADD14420 /* FlowLayout.swift */; };
+		FCBE5358AED4807DAB95A1F3 /* CameraCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F48B4C20747EA3B5418CD /* CameraCaptureService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B498D94AF27E98840651B85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73279ED514B86B7206432B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FDD142052340FE1CE9EE37D;
+			remoteInfo = CamCardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DC16242F7F1A092DFD57C4 /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
+		02ECF674F82A5ECA9916EADE /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		046C6FC4E76E16E55F67D50D /* BusinessCardFieldParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardFieldParser.swift; sourceTree = "<group>"; };
+		08265CC7FEC0630D99A378FD /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		17482302E649017A228AB344 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		1843A6FFA306B93DF9C1DB00 /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		20EBDEDAA3B9750B20B50A21 /* CardCorrectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCorrectionViewModel.swift; sourceTree = "<group>"; };
+		277A1DD60B5FD621E0FCDAC6 /* CardFlowUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardFlowUITests.swift; sourceTree = "<group>"; };
+		312A39CBD95EF733FCC644B2 /* CardFormValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFormValues.swift; sourceTree = "<group>"; };
+		363F07882345DF89E9526B0C /* SampleCardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCardFactory.swift; sourceTree = "<group>"; };
+		38F9483E34CA739A7C203E65 /* CardImageFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageFileManager.swift; sourceTree = "<group>"; };
+		43E25F3F08A4BB1FC0709B86 /* ImagePreviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewSheet.swift; sourceTree = "<group>"; };
+		44181D265BEE1D790183E8ED /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		49CB5A3EFF9AED7FFCA2F883 /* CardFormFieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFormFieldRow.swift; sourceTree = "<group>"; };
+		5D94D2E684A820F128F92EE6 /* ScanDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDraft.swift; sourceTree = "<group>"; };
+		5E26D367D3E6369F56F406C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619B56F3BD563A3CFBA5E5F4 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
+		63923EAD003583F9A75BF2D1 /* BusinessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCard.swift; sourceTree = "<group>"; };
+		667C2A44C77986387E72407C /* CardImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageLoader.swift; sourceTree = "<group>"; };
+		72361E260062C32940BB92D4 /* ContactExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactExporter.swift; sourceTree = "<group>"; };
+		7B46C6F0AB3C2A3594D2830D /* CardCorrectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCorrectionView.swift; sourceTree = "<group>"; };
+		7F475113D72D787EFFDDEA99 /* MockCardDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCardDataHelper.swift; sourceTree = "<group>"; };
+		7F6D64072846003092AAF99F /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		832231C7A9AFCD961E44B4E6 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		8413646D6A466473908BC673 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		888FD3541BD661E079D34CBD /* CardScanPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScanPipeline.swift; sourceTree = "<group>"; };
+		89E202442415B8A6870FBF48 /* CardQuadEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardQuadEditorView.swift; sourceTree = "<group>"; };
+		8BC0836CA9060BA83C9F95E3 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		8CB10489E25708934679D22B /* CardScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerView.swift; sourceTree = "<group>"; };
+		8D6446F9F8D593964F2A60EA /* AppPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreviews.swift; sourceTree = "<group>"; };
+		9C0D08F4407382D84637F60C /* CamCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAF0CFAC6EE70A50E5AEB7F /* CameraCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureViewModel.swift; sourceTree = "<group>"; };
+		A29F48B4C20747EA3B5418CD /* CameraCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureService.swift; sourceTree = "<group>"; };
+		A86F19C5A2ED3F67BF07ABA1 /* CardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewModel.swift; sourceTree = "<group>"; };
+		A953C9E2C700E081D995C8F4 /* ReferenceSuiteUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReferenceSuiteUITests.swift; sourceTree = "<group>"; };
+		CBD7F0C735036B7F354AF894 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		D6C4E5239741506F0226A707 /* CamCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39947863B5B60C636521254 /* CardScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerViewModel.swift; sourceTree = "<group>"; };
+		E79872C30408E4BCA5F101FB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		ECCCE1CBBC673B75ADD14420 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		FB2285720BEA3E8669A03F51 /* CamCardCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamCardCloneApp.swift; sourceTree = "<group>"; };
+		FC7874EC88E38306736BD833 /* ManualCardQuad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManualCardQuad.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F5CEAE24AA38F9FD5DDF4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBEF100B19439414F374F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D149241D10CE201BE19ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ADA89E32FCA83627C53211 /* CamCardCore */ = {
+			isa = PBXGroup;
+			children = (
+				046C6FC4E76E16E55F67D50D /* BusinessCardFieldParser.swift */,
+			);
+			path = CamCardCore;
+			sourceTree = "<group>";
+		};
+		27F73CDCBFAED8545E6BF00A /* CamCardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				277A1DD60B5FD621E0FCDAC6 /* CardFlowUITests.swift */,
+				A953C9E2C700E081D995C8F4 /* ReferenceSuiteUITests.swift */,
+			);
+			name = CamCardAppUITests;
+			path = Source/CamCardAppUITests;
+			sourceTree = "<group>";
+		};
+		2FB2D4A45CE231868F80BB3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63923EAD003583F9A75BF2D1 /* BusinessCard.swift */,
+				312A39CBD95EF733FCC644B2 /* CardFormValues.swift */,
+				5D94D2E684A820F128F92EE6 /* ScanDraft.swift */,
+			);
+			path = Source/Models;
+			sourceTree = "<group>";
+		};
+		31A5E41A9BD04E385DB196E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C4E5239741506F0226A707 /* CamCardApp.app */,
+				9C0D08F4407382D84637F60C /* CamCardAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A5B0C87020D1B4C992CFC6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04ADA89E32FCA83627C53211 /* CamCardCore */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5A018159D51DF0F8E6A50FC1 = {
+			isa = PBXGroup;
+			children = (
+				9532D208D5559B216C842EC7 /* App */,
+				99922B68ABDABB2C6E92AAA4 /* Common */,
+				2FB2D4A45CE231868F80BB3A /* Models */,
+				CC0EC76756D44D3C009C81F5 /* Services */,
+				85E6E3F2662748C998ACE4F5 /* Views */,
+				837408D2EA15AD33A3AB58CD /* ViewModels */,
+				830B8581D1C388D4A4B5BC5D /* Preview */,
+				39A5B0C87020D1B4C992CFC6 /* Source */,
+				31A5E41A9BD04E385DB196E5 /* Products */,
+				27F73CDCBFAED8545E6BF00A /* CamCardAppUITests */,
+				ACDE5AC1EFAF2BDCEB55FC60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED69ED434D41CDDEA20C80C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				49CB5A3EFF9AED7FFCA2F883 /* CardFormFieldRow.swift */,
+				44181D265BEE1D790183E8ED /* CardImageView.swift */,
+				ECCCE1CBBC673B75ADD14420 /* FlowLayout.swift */,
+				43E25F3F08A4BB1FC0709B86 /* ImagePreviewSheet.swift */,
+				8BC0836CA9060BA83C9F95E3 /* ShareSheet.swift */,
+				7F6D64072846003092AAF99F /* ToastView.swift */,
+				89E202442415B8A6870FBF48 /* CardQuadEditorView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		722B098183AA404641712827 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8413646D6A466473908BC673 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		830B8581D1C388D4A4B5BC5D /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				8D6446F9F8D593964F2A60EA /* AppPreviews.swift */,
+				7F475113D72D787EFFDDEA99 /* MockCardDataHelper.swift */,
+			);
+			path = Source/Preview;
+			sourceTree = "<group>";
+		};
+		837408D2EA15AD33A3AB58CD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF0CFAC6EE70A50E5AEB7F /* CameraCaptureViewModel.swift */,
+				20EBDEDAA3B9750B20B50A21 /* CardCorrectionViewModel.swift */,
+				A86F19C5A2ED3F67BF07ABA1 /* CardDetailViewModel.swift */,
+				08265CC7FEC0630D99A378FD /* CardListViewModel.swift */,
+				E39947863B5B60C636521254 /* CardScannerViewModel.swift */,
+			);
+			path = Source/ViewModels;
+			sourceTree = "<group>";
+		};
+		85E6E3F2662748C998ACE4F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1843A6FFA306B93DF9C1DB00 /* CameraCaptureView.swift */,
+				7B46C6F0AB3C2A3594D2830D /* CardCorrectionView.swift */,
+				832231C7A9AFCD961E44B4E6 /* CardDetailView.swift */,
+				17482302E649017A228AB344 /* CardListView.swift */,
+				8CB10489E25708934679D22B /* CardScannerView.swift */,
+				5ED69ED434D41CDDEA20C80C /* Components */,
+			);
+			path = Source/Views;
+			sourceTree = "<group>";
+		};
+		9532D208D5559B216C842EC7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02ECF674F82A5ECA9916EADE /* AppEnvironment.swift */,
+				FB2285720BEA3E8669A03F51 /* CamCardCloneApp.swift */,
+				E79872C30408E4BCA5F101FB /* RootView.swift */,
+				5E26D367D3E6369F56F406C8 /* Info.plist */,
+			);
+			path = Source/App;
+			sourceTree = "<group>";
+		};
+		99922B68ABDABB2C6E92AAA4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CBD7F0C735036B7F354AF894 /* AppTheme.swift */,
+				FC7874EC88E38306736BD833 /* ManualCardQuad.swift */,
+			);
+			path = Source/Common;
+			sourceTree = "<group>";
+		};
+		ACDE5AC1EFAF2BDCEB55FC60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				722B098183AA404641712827 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0EC76756D44D3C009C81F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A29F48B4C20747EA3B5418CD /* CameraCaptureService.swift */,
+				38F9483E34CA739A7C203E65 /* CardImageFileManager.swift */,
+				667C2A44C77986387E72407C /* CardImageLoader.swift */,
+				619B56F3BD563A3CFBA5E5F4 /* CardRepository.swift */,
+				888FD3541BD661E079D34CBD /* CardScanPipeline.swift */,
+				00DC16242F7F1A092DFD57C4 /* CardStore.swift */,
+				72361E260062C32940BB92D4 /* ContactExporter.swift */,
+				363F07882345DF89E9526B0C /* SampleCardFactory.swift */,
+			);
+			path = Source/Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FDD142052340FE1CE9EE37D /* CamCardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6A72F3910C6630A105EC79 /* Build configuration list for PBXNativeTarget "CamCardApp" */;
+			buildPhases = (
+				6872A35F0528538A1D535671 /* Sources */,
+				10F5CEAE24AA38F9FD5DDF4E /* Frameworks */,
+				ECAD0C25AFB98DA834C5B1ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamCardApp;
+			productName = CamCardApp;
+			productReference = D6C4E5239741506F0226A707 /* CamCardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB795CEF872B064A67E9A7CF /* CamCardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50B7E51830B9F768669C4BE /* Build configuration list for PBXNativeTarget "CamCardAppUITests" */;
+			buildPhases = (
+				DD6F12205B20202BB72057D5 /* Sources */,
+				CBBEF100B19439414F374F71 /* Frameworks */,
+				6023D0F64CB9F0FC20DAA090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8820F0D83A5128DA0D8BAB /* PBXTargetDependency */,
+			);
+			name = CamCardAppUITests;
+			productName = CamCardAppUITests;
+			productReference = 9C0D08F4407382D84637F60C /* CamCardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B73279ED514B86B7206432B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7FDD142052340FE1CE9EE37D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FB795CEF872B064A67E9A7CF = {
+						TestTargetID = 7FDD142052340FE1CE9EE37D;
+					};
+				};
+			};
+			buildConfigurationList = E2B6DC45986E8AEE422DD0E5 /* Build configuration list for PBXProject "CamCardApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 5A018159D51DF0F8E6A50FC1;
+			productRefGroup = 31A5E41A9BD04E385DB196E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FDD142052340FE1CE9EE37D /* CamCardApp */,
+				FB795CEF872B064A67E9A7CF /* CamCardAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6023D0F64CB9F0FC20DAA090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAD0C25AFB98DA834C5B1ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6872A35F0528538A1D535671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8CC052B8365CFB602651D0 /* AppEnvironment.swift in Sources */,
+				2153DFEC170CECE34A91D615 /* CamCardCloneApp.swift in Sources */,
+				20AA6DB64E64A1543AD2C48F /* RootView.swift in Sources */,
+				6EDA4427F97C991D2B047C6E /* AppTheme.swift in Sources */,
+				9085C9C7AFD94793D38CF9D6 /* BusinessCard.swift in Sources */,
+				7DC81B0E4DC1014526DAE6D2 /* CardFormValues.swift in Sources */,
+				F0EC12FE04C92DA912C0E86A /* ScanDraft.swift in Sources */,
+				29E934B16072B2FCE0AAC536 /* AppPreviews.swift in Sources */,
+				39F9A86B0BA4B08B5F5319A0 /* MockCardDataHelper.swift in Sources */,
+				FCBE5358AED4807DAB95A1F3 /* CameraCaptureService.swift in Sources */,
+				CCF4D143AF69A0A5D663735F /* CardImageFileManager.swift in Sources */,
+				1BC3F12DAED8E01386BC891F /* CardImageLoader.swift in Sources */,
+				0285611F7D50E9DDA6972E7C /* CardRepository.swift in Sources */,
+				E72E2B982A67B1B100D11E0C /* CardScanPipeline.swift in Sources */,
+				4908CBAC7F37A7F3555332B0 /* CardStore.swift in Sources */,
+				90D2E78869D0D7A48F67F78B /* ContactExporter.swift in Sources */,
+				4146A603D422D91E74ED3E61 /* SampleCardFactory.swift in Sources */,
+				F236A848BFC7D6A7122CE6C6 /* BusinessCardFieldParser.swift in Sources */,
+				44689943B501168AFF1C71EE /* CameraCaptureViewModel.swift in Sources */,
+				B26BB7600E8DC235271D877A /* CardCorrectionViewModel.swift in Sources */,
+				254B265B40C74ABBC58BED44 /* CardDetailViewModel.swift in Sources */,
+				BAB1B784DFC656B752F6C429 /* CardListViewModel.swift in Sources */,
+				48C33FFF77B3C9D3B59FA68C /* CardScannerViewModel.swift in Sources */,
+				201F2D82808376DC40FCA04A /* CameraCaptureView.swift in Sources */,
+				3862FC3C47B3E2BE2E33F4C6 /* CardCorrectionView.swift in Sources */,
+				6401B7978200AE5083DD1011 /* CardDetailView.swift in Sources */,
+				26D531A04D0A0F9A5B10B699 /* CardListView.swift in Sources */,
+				6F0E93906D762D43742E1802 /* CardScannerView.swift in Sources */,
+				62A0EE410D317CA99E03E28F /* CardFormFieldRow.swift in Sources */,
+				24A7C19A538D8F92174BA6B4 /* CardImageView.swift in Sources */,
+				F67AC527225D5A93E8BB7289 /* FlowLayout.swift in Sources */,
+				6530B884AD47FAAD7673FF68 /* ImagePreviewSheet.swift in Sources */,
+				AB4998BF32DE0766FAF3977E /* ShareSheet.swift in Sources */,
+				30C60930FD178110AA4B227C /* ToastView.swift in Sources */,
+				1F22CABD28AAACE6A2C58D14 /* ManualCardQuad.swift in Sources */,
+				460805717A262AEABBE8BC6B /* CardQuadEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F12205B20202BB72057D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD658C9900A68536DE5C9AF /* CardFlowUITests.swift in Sources */,
+				95C3A535CEA7AD6ADD0DDB85 /* ReferenceSuiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E8820F0D83A5128DA0D8BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CamCardApp;
+			target = 7FDD142052340FE1CE9EE37D /* CamCardApp */;
+			targetProxy = 9B498D94AF27E98840651B85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		663A6DE2655A4E4819AA7322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.camcard.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamCardApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67BE6271DB9623FA97B46814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Source/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.camcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C46D1CEB52230D64054BD2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD9817B8BEA9FAE6AA1B593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.camcard.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamCardApp;
+			};
+			name = Debug;
+		};
+		B601AF321E07947AE3FBA1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Source/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.camcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0A8C1563F711067A735BF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B6A72F3910C6630A105EC79 /* Build configuration list for PBXNativeTarget "CamCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B601AF321E07947AE3FBA1D2 /* Debug */,
+				67BE6271DB9623FA97B46814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50B7E51830B9F768669C4BE /* Build configuration list for PBXNativeTarget "CamCardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663A6DE2655A4E4819AA7322 /* Release */,
+				ACD9817B8BEA9FAE6AA1B593 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B6DC45986E8AEE422DD0E5 /* Build configuration list for PBXProject "CamCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A8C1563F711067A735BF04 /* Debug */,
+				7C46D1CEB52230D64054BD2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B73279ED514B86B7206432B2 /* Project object */;
+}

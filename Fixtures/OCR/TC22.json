@@ -1,0 +1,97 @@
+{
+  "id": "TC22",
+  "scenario": "英文-姓名后缀+三号码",
+  "image": "Fixtures/Images/TC22.png",
+  "lines": [
+    {
+      "text": "Pike & Rowe LLP",
+      "confidence": 0.952,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.2206,
+        0.053
+      ]
+    },
+    {
+      "text": "Jonathan Pike Jr.",
+      "confidence": 0.96,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.1794,
+        0.043
+      ]
+    },
+    {
+      "text": "Partner",
+      "confidence": 0.896,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.0594,
+        0.033
+      ]
+    },
+    {
+      "text": "+1 212 555 0188",
+      "confidence": 0.948,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.1444,
+        0.033
+      ]
+    },
+    {
+      "text": "T +1 212 555 0199",
+      "confidence": 0.897,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.1606,
+        0.033
+      ]
+    },
+    {
+      "text": "F +1 212 555 0200",
+      "confidence": 0.924,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.16,
+        0.033
+      ]
+    },
+    {
+      "text": "jonathan.pike@example.com",
+      "confidence": 0.965,
+      "bbox": [
+        0.1437,
+        0.497,
+        0.2256,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/pikerowe",
+      "confidence": 0.895,
+      "bbox": [
+        0.1437,
+        0.454,
+        0.225,
+        0.033
+      ]
+    },
+    {
+      "text": "250 Park Avenue, 17th Floor, New York, NY 10177",
+      "confidence": 0.93,
+      "bbox": [
+        0.1437,
+        0.411,
+        0.4113,
+        0.033
+      ]
+    }
+  ]
+}

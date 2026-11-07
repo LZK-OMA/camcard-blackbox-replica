@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-11-07 20:06:38",
+  "dataset": {
+    "total": 30,
+    "categories": {
+      "中文": 14,
+      "中英双语": 6,
+      "英文": 10
+    }
+  },
+  "baseline": {
+    "fields": {
+      "name": {
+        "expected_non_null": 30,
+        "predicted_non_null": 30,
+        "correct": 30,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 0,
+        "null_correct": 0,
+        "null_correctness": 1.0
+      },
+      "company": {
+        "expected_non_null": 29,
+        "predicted_non_null": 29,
+        "correct": 29,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 1,
+        "null_correct": 1,
+        "null_correctness": 1.0
+      },
+      "jobTitle": {
+        "expected_non_null": 29,
+        "predicted_non_null": 29,
+        "correct": 29,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 1,
+        "null_correct": 1,
+        "null_correctness": 1.0
+      },
+      "mobile": {
+        "expected_non_null": 27,
+        "predicted_non_null": 27,
+        "correct": 27,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 3,
+        "null_correct": 3,
+        "null_correctness": 1.0
+      },
+      "phone": {
+        "expected_non_null": 27,
+        "predicted_non_null": 27,
+        "correct": 27,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 3,
+        "null_correct": 3,
+        "null_correctness": 1.0
+      },
+      "email": {
+        "expected_non_null": 27,
+        "predicted_non_null": 27,
+        "correct": 27,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 3,
+        "null_correct": 3,
+        "null_correctness": 1.0
+      },
+      "website": {
+        "expected_non_null": 22,
+        "predicted_non_null": 22,
+        "correct": 22,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 8,
+        "null_correct": 8,
+        "null_correctness": 1.0
+      },
+      "address": {
+        "expected_non_null": 28,
+        "predicted_non_null": 28,
+        "correct": 28,
+        "exact_rate": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "null_expected": 2,
+        "null_correct": 2,
+        "null_correctness": 1.0
+      }
+    },
+    "macro_f1": 1.0,
+    "null_correctness": 1.0,
+    "correct_predictions": 219,
+    "total_fields": 240
+  },
+  "baselineGate": {
+    "checks": {
+      "姓名准确率": {
+        "value": 1.0,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "公司准确率": {
+        "value": 1.0,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "手机准确率": {
+        "value": 1.0,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "邮箱准确率": {
+        "value": 1.0,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "宏平均 F1": {
+        "value": 1.0,
+        "threshold": 0.9,
+        "pass": true
+      },
+      "空值正确率": {
+        "value": 1.0,
+        "threshold": 1.0,
+        "pass": true
+      }
+    },
+    "passed": true
+  },
+  "endToEnd": {
+    "fields": {
+      "name": {
+        "expected_non_null": 30,
+        "predicted_non_null": 30,
+        "correct": 29,
+        "exact_rate": 0.9666666666666667,
+        "precision": 0.9666666666666667,
+        "recall": 0.9666666666666667,
+        "f1": 0.9666666666666667,
+        "null_expected": 0,
+        "null_correct": 0,
+        "null_correctness": 1.0
+      },
+      "company": {
+        "expected_non_null": 29,
+        "predicted_non_null": 28,
+        "correct": 28,
+        "exact_rate": 0.9666666666666667,
+        "precision": 1.0,
+        "recall": 0.9655172413793104,
+        "f1": 0.9824561403508771,
+        "null_expected": 1,
+        "null_correct": 1,
+        "null_correctness": 1.0
+      },
+      "jobTitle": {
+        "expected_non_null": 29,
+        "predicted_non_null": 28,
+        "correct": 28,
+        "exact_rate": 0.9666666666666667,
+        "precision": 1.0,
+        "recall": 0.9655172413793104,
+        "f1": 0.9824561403508771,
+        "null_expected": 1,
+        "null_correct": 1,
+        "null_correctness": 1.0
+      },
+      "mobile": {
+        "expected_non_null": 27,
+        "predicted_non_null": 26,
+        "correct": 26,
+        "exact_rate": 0.9666666666666667,
+        "precision": 1.0,
+        "recall": 0.9629629629629629,
+        "f1": 0.9811320754716981,
+        "null_expected": 3,
+        "null_correct": 3,
+        "null_correctness": 1.0
+      },
+      "phone": {
+        "expected_non_null": 27,
+        "predicted_non_null": 26,
+        "correct": 26,
+        "exact_rate": 0.9666666666666667,
+        "precision": 1.0,
+        "recall": 0.9629629629629629,
+        "f1": 0.9811320754716981,
+        "null_expected": 3,
+        "null_correct": 3,
+        "null_correctness": 1.0
+      },
+      "email": {
+        "expected_non_null": 27,
+        "predicted_non_null": 26,
+        "correct": 24,
+        "exact_rate": 0.9,
+        "precision": 0.9230769230769231,
+        "recall": 0.8888888888888888,
+        "f1": 0.9056603773584906,
+        "null_expected": 3,
+        "null_correct": 3,
+        "null_correctness": 1.0
+      },
+      "website": {
+        "expected_non_null": 22,
+        "predicted_non_null": 22,
+        "correct": 21,
+        "exact_rate": 0.9666666666666667,
+        "precision": 0.9545454545454546,
+        "recall": 0.9545454545454546,
+        "f1": 0.9545454545454546,
+        "null_expected": 8,
+        "null_correct": 8,
+        "null_correctness": 1.0
+      },
+      "address": {
+        "expected_non_null": 28,
+        "predicted_non_null": 27,
+        "correct": 26,
+        "exact_rate": 0.9333333333333333,
+        "precision": 0.9629629629629629,
+        "recall": 0.9285714285714286,
+        "f1": 0.9454545454545454,
+        "null_expected": 2,
+        "null_correct": 2,
+        "null_correctness": 1.0
+      }
+    },
+    "macro_f1": 0.9624379344587884,
+    "null_correctness": 1.0,
+    "correct_predictions": 208,
+    "total_fields": 240
+  },
+  "endToEndGate": {
+    "checks": {
+      "姓名准确率": {
+        "value": 0.9666666666666667,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "公司准确率": {
+        "value": 0.9666666666666667,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "手机准确率": {
+        "value": 0.9666666666666667,
+        "threshold": 0.95,
+        "pass": true
+      },
+      "邮箱准确率": {
+        "value": 0.9,
+        "threshold": 0.95,
+        "pass": false
+      },
+      "宏平均 F1": {
+        "value": 0.9624379344587884,
+        "threshold": 0.9,
+        "pass": true
+      },
+      "空值正确率": {
+        "value": 1.0,
+        "threshold": 1.0,
+        "pass": true
+      }
+    },
+    "passed": false
+  },
+  "ocrQuality": {
+    "detection_rate": 1.0,
+    "mean_confidence": 0.6098055613333333,
+    "mean_duration_ms": 186.81666666666666,
+    "median_duration_ms": 169.39999999999998,
+    "line_recall": 0.9488095238095238,
+    "char_similarity": 0.9694279784402973
+  },
+  "baselineErrors": [],
+  "endToEndErrors": [
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "name",
+      "field_label": "姓名",
+      "expected": "顾清和",
+      "predicted": "顾执",
+      "reason": "OCR 误识别"
+    },
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "company",
+      "field_label": "公司",
+      "expected": "明道律师事务所",
+      "predicted": null,
+      "reason": "OCR 漏识别"
+    },
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "jobTitle",
+      "field_label": "职位",
+      "expected": "执业律师 / Attorney at Law",
+      "predicted": null,
+      "reason": "OCR 漏识别"
+    },
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "mobile",
+      "field_label": "手机",
+      "expected": "13500008888",
+      "predicted": null,
+      "reason": "OCR 漏识别"
+    },
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "phone",
+      "field_label": "电话",
+      "expected": "02500009999",
+      "predicted": null,
+      "reason": "OCR 漏识别"
+    },
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "email",
+      "field_label": "邮箱",
+      "expected": "gu.qinghe@example.com",
+      "predicted": null,
+      "reason": "OCR 漏识别"
+    },
+    {
+      "id": "TC07",
+      "scenario": "中文-竖排异形版式",
+      "field": "address",
+      "field_label": "地址",
+      "expected": "南京市鼓楼区中山路 0000 号 国际大厦 26 层",
+      "predicted": null,
+      "reason": "OCR 漏识别"
+    },
+    {
+      "id": "TC14",
+      "scenario": "中文-事业单位-无手机",
+      "field": "email",
+      "field_label": "邮箱",
+      "expected": "luo.jianguo@example.cn",
+      "predicted": "iuojianguo@example.cn",
+      "reason": "OCR 误识别"
+    },
+    {
+      "id": "TC19",
+      "scenario": "英文-英国国际号码",
+      "field": "address",
+      "field_label": "地址",
+      "expected": "3 Trinity Buoy Wharf, London E14 0JY",
+      "predicted": "3 Trinity Buoy Wharf, London E14 OJY",
+      "reason": "OCR 误识别"
+    },
+    {
+      "id": "TC20",
+      "scenario": "中文-医院-多职称",
+      "field": "email",
+      "field_label": "邮箱",
+      "expected": "shao.huaijin@example.com",
+      "predicted": "shao.huajjin@example.com",
+      "reason": "OCR 误识别"
+    },
+    {
+      "id": "TC26",
+      "scenario": "中文-互联网行业-无邮箱",
+      "field": "website",
+      "field_label": "网址",
+      "expected": "https://www.example.com/wujie",
+      "predicted": "https://www.example.com/wujle",
+      "reason": "OCR 误识别"
+    }
+  ]
+}

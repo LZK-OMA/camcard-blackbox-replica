@@ -1,0 +1,107 @@
+{
+  "id": "TC04",
+  "scenario": "中英双语-多电话（手机/办公/传真）",
+  "image": "Fixtures/Images/TC04.png",
+  "lines": [
+    {
+      "text": "Lanting International Hotels Group",
+      "confidence": 0.943,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.4469,
+        0.053
+      ]
+    },
+    {
+      "text": "澜庭国际酒店集团",
+      "confidence": 0.945,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.17,
+        0.043
+      ]
+    },
+    {
+      "text": "周慕青 Zhou Muqing",
+      "confidence": 0.922,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.1613,
+        0.033
+      ]
+    },
+    {
+      "text": "Marketing Director / 市场总监",
+      "confidence": 0.976,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.2356,
+        0.033
+      ]
+    },
+    {
+      "text": "Mobile: +86 136 0000 5555",
+      "confidence": 0.894,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.2281,
+        0.033
+      ]
+    },
+    {
+      "text": "Office: 010-0000 6666",
+      "confidence": 0.882,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.1869,
+        0.033
+      ]
+    },
+    {
+      "text": "Fax: 010-0000 7777",
+      "confidence": 0.937,
+      "bbox": [
+        0.1437,
+        0.497,
+        0.1656,
+        0.033
+      ]
+    },
+    {
+      "text": "muqing.zhou@example.com",
+      "confidence": 0.9,
+      "bbox": [
+        0.1437,
+        0.454,
+        0.2213,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/lanting",
+      "confidence": 0.883,
+      "bbox": [
+        0.1437,
+        0.411,
+        0.2069,
+        0.033
+      ]
+    },
+    {
+      "text": "北京市朝阳区建国路 0000 号 澜庭大厦 18 层",
+      "confidence": 0.922,
+      "bbox": [
+        0.1437,
+        0.368,
+        0.3356,
+        0.033
+      ]
+    }
+  ]
+}

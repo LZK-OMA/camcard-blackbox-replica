@@ -1,0 +1,1596 @@
+{
+  "environment" : "macOS 版本15.5（版号24F74）",
+  "generatedAt" : "2026-11-07T12:18:40Z",
+  "imageCount" : 30,
+  "results" : [
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 583.3,
+      "fields" : {
+        "address" : "深圳市南山区科苑南路 0000号8栋 1201",
+        "company" : "星澜科技（深圳）有限公司",
+        "email" : "chen.yizhou@example.com",
+        "jobTitle" : "产品总监",
+        "mobile" : "13800001234",
+        "name" : "陈亦舟",
+        "phone" : "075500005678",
+        "website" : "https://www.example.com"
+      },
+      "id" : "TC01",
+      "imagePath" : "Fixtures/Images/TC01.png",
+      "meanConfidence" : 0.58000004,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "星澜科技（深圳）有限公司"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "SHENZHEN XINGLAN TECHNOLOGY CO.， LTD."
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "•"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "产品总监 陈亦舟"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Mobile 138 0000 1234"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Tel: 0755-0000 5678"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "E-mail: Chen.Yizhou@Example.com"
+        },
+        {
+          "confidence" : 1,
+          "text" : "www.example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "深圳市南山区科苑南路 0000号8栋 1201"
+        },
+        {
+          "confidence" : 1,
+          "text" : "让数据流动"
+        }
+      ],
+      "ocrRawText" : "星澜科技（深圳）有限公司\nSHENZHEN XINGLAN TECHNOLOGY CO.， LTD.\n•\n产品总监 陈亦舟\nMobile 138 0000 1234\nTel: 0755-0000 5678\nE-mail: Chen.Yizhou@Example.com\nwww.example.com\n深圳市南山区科苑南路 0000号8栋 1201\n让数据流动",
+      "scenario" : "中文-标准横版-单手机"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 179.6,
+      "fields" : {
+        "address" : "上海市静安区南京西路 0000号 恒隆广场 2座 3301",
+        "company" : "衡远咨询（上海）有限公司",
+        "jobTitle" : "高级合伙人",
+        "mobile" : "13900001111",
+        "name" : "林知微",
+        "phone" : "02100002222"
+      },
+      "id" : "TC02",
+      "imagePath" : "Fixtures/Images/TC02.png",
+      "meanConfidence" : 0.55,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "衡远咨询（上海）有限公司"
+        },
+        {
+          "confidence" : 1,
+          "text" : "高级合伙人"
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "林知微"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "手机 139 0000 1111"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "电话 021-0000 2222"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "上海市静安区南京西路 0000号 恒隆广场 2座 3301"
+        }
+      ],
+      "ocrRawText" : "衡远咨询（上海）有限公司\n高级合伙人\n林知微\n手机 139 0000 1111\n电话 021-0000 2222\n上海市静安区南京西路 0000号 恒隆广场 2座 3301",
+      "scenario" : "中文-无邮箱无网站"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 169.1,
+      "fields" : {
+        "address" : "杭州市余杭区文一西路0000号 5号楼 602",
+        "company" : "云栖数据科技有限公司",
+        "email" : "shen.yibai@example.cn",
+        "jobTitle" : "数据架构师",
+        "mobile" : "13700003333",
+        "name" : "沈亦白",
+        "phone" : "057100004444"
+      },
+      "id" : "TC03",
+      "imagePath" : "Fixtures/Images/TC03.png",
+      "meanConfidence" : 0.6333333,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "云栖数据科技有限公司"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "沈亦白 | 数据架构师"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M: 137 0000 3333"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T: 0571-0000 4444"
+        },
+        {
+          "confidence" : 1,
+          "text" : "shen.yibai@example.cn"
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "杭州市余杭区文一西路0000号 5号楼 602"
+        }
+      ],
+      "ocrRawText" : "云栖数据科技有限公司\n沈亦白 | 数据架构师\nM: 137 0000 3333\nT: 0571-0000 4444\nshen.yibai@example.cn\n杭州市余杭区文一西路0000号 5号楼 602",
+      "scenario" : "中文-无网站"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 219.2,
+      "fields" : {
+        "address" : "北京市朝阳区建国路 0000号 澜庭大厦 18 层",
+        "company" : "澜庭国际酒店集团",
+        "email" : "muqing.zhou@example.com",
+        "jobTitle" : "市场总监 / Marketing Director",
+        "mobile" : "13600005555",
+        "name" : "周慕青 Zhou Muqing",
+        "phone" : "01000006666",
+        "website" : "https://www.example.com/lanting"
+      },
+      "id" : "TC04",
+      "imagePath" : "Fixtures/Images/TC04.png",
+      "meanConfidence" : 0.6,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Lanting International Hotels Group"
+        },
+        {
+          "confidence" : 1,
+          "text" : "澜庭国际酒店集团"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "周慕青 Zhou Muqing"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Marketing Director / 市场总监"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Mobile： +86 136 0000 5555"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Office: 010-0000 6666"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Fax: 010-0000 7777"
+        },
+        {
+          "confidence" : 1,
+          "text" : "muqing.zhou@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/lanting"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "北京市朝阳区建国路 0000号 澜庭大厦 18 层"
+        }
+      ],
+      "ocrRawText" : "Lanting International Hotels Group\n澜庭国际酒店集团\n周慕青 Zhou Muqing\nMarketing Director / 市场总监\nMobile： +86 136 0000 5555\nOffice: 010-0000 6666\nFax: 010-0000 7777\nmuqing.zhou@example.com\nwww.example.com/lanting\n北京市朝阳区建国路 0000号 澜庭大厦 18 层",
+      "scenario" : "中英双语-多电话（手机/办公/传真）"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 220.4,
+      "fields" : {
+        "address" : "1200 K Street NW, Suite 400, Washington, DC 20005",
+        "company" : "Northbridge Analytics Ltd.",
+        "email" : "daniel.whitfield@example.com",
+        "jobTitle" : "Head of Research",
+        "mobile" : "+12025550143",
+        "name" : "Daniel Whitfield",
+        "phone" : "2025550177",
+        "website" : "https://www.example.com"
+      },
+      "id" : "TC05",
+      "imagePath" : "Fixtures/Images/TC05.png",
+      "meanConfidence" : 0.6111111,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Northbridge Analytics Ltd."
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Daniel Whitfield"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Head of Research"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "+1 202 555 0143 （Mobile）"
+        },
+        {
+          "confidence" : 1,
+          "text" : "T 202.555.0177"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F 202.555.0188"
+        },
+        {
+          "confidence" : 1,
+          "text" : "Daniel.Whitfield@Example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "https://www.example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "1200 K Street NW, Suite 400, Washington, DC 20005"
+        }
+      ],
+      "ocrRawText" : "Northbridge Analytics Ltd.\nDaniel Whitfield\nHead of Research\n+1 202 555 0143 （Mobile）\nT 202.555.0177\nF 202.555.0188\nDaniel.Whitfield@Example.com\nhttps://www.example.com\n1200 K Street NW, Suite 400, Washington, DC 20005",
+      "scenario" : "英文-标准美国号码"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 157.2,
+      "fields" : {
+        "address" : "14 Camden Passage, London N1 8EA",
+        "company" : "Halcyon Design Studio",
+        "email" : "emily.carr@example.co.uk",
+        "jobTitle" : "Creative Director",
+        "name" : "Emily Carr",
+        "phone" : "02055500182",
+        "website" : "https://www.example.co.uk"
+      },
+      "id" : "TC06",
+      "imagePath" : "Fixtures/Images/TC06.png",
+      "meanConfidence" : 0.5714286,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Halcyon Design Studio"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Emily Carr"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Creative Director"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T: 020 5550 0182"
+        },
+        {
+          "confidence" : 1,
+          "text" : "emily.carr@example.co.uk"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.co.uk"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "14 Camden Passage, London N1 8EA"
+        }
+      ],
+      "ocrRawText" : "Halcyon Design Studio\nEmily Carr\nCreative Director\nT: 020 5550 0182\nemily.carr@example.co.uk\nwww.example.co.uk\n14 Camden Passage, London N1 8EA",
+      "scenario" : "英文-无手机（仅办公电话）"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 134,
+      "fields" : {
+        "name" : "顾执"
+      },
+      "id" : "TC07",
+      "imagePath" : "Fixtures/Images/TC07.png",
+      "meanConfidence" : 0.65999997,
+      "ocrLines" : [
+        {
+          "confidence" : 0.3,
+          "text" : "明"
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "顾执"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "W"
+        },
+        {
+          "confidence" : 1,
+          "text" : "M"
+        },
+        {
+          "confidence" : 1,
+          "text" : "8"
+        },
+        {
+          "confidence" : 1,
+          "text" : "9"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "道"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "清"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "律"
+        },
+        {
+          "confidence" : 1,
+          "text" : "和"
+        }
+      ],
+      "ocrRawText" : "明\n顾执\nW\nM\n8\n9\n道\n清\n律\n和",
+      "scenario" : "中文-竖排异形版式"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 193.2,
+      "fields" : {
+        "address" : "北京市朝阳区酒仙桥路0000号 751园区A 座",
+        "company" : "星野文化传媒",
+        "email" : "su.wan@example.com",
+        "jobTitle" : "内容运营经理",
+        "mobile" : "13300001212 / 13800001313",
+        "name" : "苏晚",
+        "phone" : "01000001414",
+        "website" : "https://www.example.com/xingye"
+      },
+      "id" : "TC08",
+      "imagePath" : "Fixtures/Images/TC08.png",
+      "meanConfidence" : 0.64444447,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "星野文化传媒"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "苏晚"
+        },
+        {
+          "confidence" : 1,
+          "text" : "内容运营经理"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "手机1 133 0000 1212"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "手机2 138 0000 1313"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "010-0000 1414"
+        },
+        {
+          "confidence" : 1,
+          "text" : "su.wan@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/xingye"
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "北京市朝阳区酒仙桥路0000号 751园区A 座"
+        }
+      ],
+      "ocrRawText" : "星野文化传媒\n苏晚\n内容运营经理\n手机1 133 0000 1212\n手机2 138 0000 1313\n010-0000 1414\nsu.wan@example.com\nwww.example.com/xingye\n北京市朝阳区酒仙桥路0000号 751园区A 座",
+      "scenario" : "中文-双手机号"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 188.4,
+      "fields" : {
+        "address" : "88 Harbor Street, Building C, Floor 3, Boston, MA 02110",
+        "company" : "Verdant Supply Co.",
+        "email" : "marcus.reed@example.com",
+        "jobTitle" : "Operations Manager",
+        "mobile" : "+16175550199",
+        "name" : "Marcus Reed",
+        "phone" : "+16175550200",
+        "website" : "https://www.example.com/verdant"
+      },
+      "id" : "TC09",
+      "imagePath" : "Fixtures/Images/TC09.png",
+      "meanConfidence" : 0.55,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Verdant Supply Co."
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Marcus Reed"
+        },
+        {
+          "confidence" : 1,
+          "text" : "Operations Manager"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Mobile +1 617 555 0199"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Office +1 617 555 0200"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "marcus.reed@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/verdant"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "88 Harbor Street"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Building C, Floor 3"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Boston, MA 02110"
+        }
+      ],
+      "ocrRawText" : "Verdant Supply Co.\nMarcus Reed\nOperations Manager\nMobile +1 617 555 0199\nOffice +1 617 555 0200\nmarcus.reed@example.com\nwww.example.com/verdant\n88 Harbor Street\nBuilding C, Floor 3\nBoston, MA 02110",
+      "scenario" : "英文-多行地址"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 188.4,
+      "fields" : {
+        "address" : "上海市浦东新区陆家嘴环路0000号 国金中心2期45层",
+        "company" : "中衡资本",
+        "email" : "gaoweizhen@example.com",
+        "jobTitle" : "投资总监",
+        "mobile" : "13800002020",
+        "name" : "高维桢",
+        "phone" : "02100002121",
+        "website" : "https://www.example.com/zhongheng"
+      },
+      "id" : "TC10",
+      "imagePath" : "Fixtures/Images/TC10.png",
+      "meanConfidence" : 0.7222222,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "中衡资本"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "高维桢"
+        },
+        {
+          "confidence" : 1,
+          "text" : "投资总监"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M: 138 0000 2020"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T: 021-0000 2121"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F: 021-0000 2222"
+        },
+        {
+          "confidence" : 1,
+          "text" : "gaoweizhen@example.com"
+        },
+        {
+          "confidence" : 1,
+          "text" : "www.example.com/zhongheng"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "上海市浦东新区陆家嘴环路0000号 国金中心2期45层"
+        }
+      ],
+      "ocrRawText" : "中衡资本\n高维桢\n投资总监\nM: 138 0000 2020\nT: 021-0000 2121\nF: 021-0000 2222\ngaoweizhen@example.com\nwww.example.com/zhongheng\n上海市浦东新区陆家嘴环路0000号 国金中心2期45层",
+      "scenario" : "中文-金融-带传真"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 190.1,
+      "fields" : {
+        "address" : "成都市锦江区红星路 0000号 创意产业园 B座5 层",
+        "company" : "澄观建筑设计事务所",
+        "email" : "jiang.yan@example.com",
+        "jobTitle" : "主持建筑师 / Principal Architect",
+        "mobile" : "13900002323",
+        "name" : "江砚 Jiang Yan",
+        "phone" : "02800002424",
+        "website" : "https://www.example.com/chengguan"
+      },
+      "id" : "TC11",
+      "imagePath" : "Fixtures/Images/TC11.png",
+      "meanConfidence" : 0.6111111,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "澄观建筑设计事务所"
+        },
+        {
+          "confidence" : 1,
+          "text" : "Chengguan Architecture"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "江砚 Jiang Yan"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "主持建筑师 Principal Architect"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 139 0000 2323"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 028-0000 2424"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "jiang.yan@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/chengguan"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "成都市锦江区红星路 0000号 创意产业园 B座5 层"
+        }
+      ],
+      "ocrRawText" : "澄观建筑设计事务所\nChengguan Architecture\n江砚 Jiang Yan\n主持建筑师 Principal Architect\nM 139 0000 2323\nT 028-0000 2424\njiang.yan@example.com\nwww.example.com/chengguan\n成都市锦江区红星路 0000号 创意产业园 B座5 层",
+      "scenario" : "中英双语-中英文姓名"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 152.9,
+      "fields" : {
+        "address" : "广州市海珠区新港中路 0000号 302 室",
+        "email" : "heyiming@example.com",
+        "jobTitle" : "独立摄影师",
+        "mobile" : "13600002525",
+        "name" : "何一鸣",
+        "website" : "https://www.example.com/heyiming"
+      },
+      "id" : "TC12",
+      "imagePath" : "Fixtures/Images/TC12.png",
+      "meanConfidence" : 0.6666667,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "何一鸣"
+        },
+        {
+          "confidence" : 1,
+          "text" : "独立摄影师"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "136 0000 2525"
+        },
+        {
+          "confidence" : 1,
+          "text" : "heyiming@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/heyiming"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "广州市海珠区新港中路 0000号 302 室"
+        }
+      ],
+      "ocrRawText" : "何一鸣\n独立摄影师\n136 0000 2525\nheyiming@example.com\nwww.example.com/heyiming\n广州市海珠区新港中路 0000号 302 室",
+      "scenario" : "中文-无公司（自由职业）"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 172.4,
+      "fields" : {
+        "address" : "500 Union Avenue, San Jose, CA 95126",
+        "company" : "Kestrel Software",
+        "email" : "olivia.bennett@example.com",
+        "mobile" : "+14085550166",
+        "name" : "Olivia Bennett",
+        "phone" : "+14085550167",
+        "website" : "https://www.example.com/kestrel"
+      },
+      "id" : "TC13",
+      "imagePath" : "Fixtures/Images/TC13.png",
+      "meanConfidence" : 0.5714286,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Kestrel Software"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Olivia Bennett"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "+1 408 555 0166"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "+1 408 555 0167"
+        },
+        {
+          "confidence" : 1,
+          "text" : "olivia.bennett@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/kestrel"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "500 Union Avenue, San Jose, CA 95126"
+        }
+      ],
+      "ocrRawText" : "Kestrel Software\nOlivia Bennett\n+1 408 555 0166\n+1 408 555 0167\nolivia.bennett@example.com\nwww.example.com/kestrel\n500 Union Avenue, San Jose, CA 95126",
+      "scenario" : "英文-缺职位"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 163.8,
+      "fields" : {
+        "address" : "长沙市岳麓区岳麓大道 0000号 规划大厦9层",
+        "company" : "市城市规划研究院",
+        "email" : "iuojianguo@example.cn",
+        "jobTitle" : "高级工程师",
+        "name" : "罗建国",
+        "phone" : "073100002727"
+      },
+      "id" : "TC14",
+      "imagePath" : "Fixtures/Images/TC14.png",
+      "meanConfidence" : 0.64285713,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "市城市规划研究院"
+        },
+        {
+          "confidence" : 1,
+          "text" : "罗建国"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "高级工程师"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 0731-0000 2727"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F 0731-0000 2828"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Iuojianguo@example.cn"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "长沙市岳麓区岳麓大道 0000号 规划大厦9层"
+        }
+      ],
+      "ocrRawText" : "市城市规划研究院\n罗建国\n高级工程师\nT 0731-0000 2727\nF 0731-0000 2828\nIuojianguo@example.cn\n长沙市岳麓区岳麓大道 0000号 规划大厦9层",
+      "scenario" : "中文-事业单位-无手机"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 187.3,
+      "fields" : {
+        "address" : "广州市天河区珠江新城华夏路 0000号 1601",
+        "company" : "白鹭教育科技",
+        "email" : "yining.wen@example.com",
+        "jobTitle" : "教研负责人 / Head of Curriculum",
+        "mobile" : "13500002929",
+        "name" : "温以宁 Wen Yining",
+        "phone" : "02000003030",
+        "website" : "https://www.example.com/egret"
+      },
+      "id" : "TC15",
+      "imagePath" : "Fixtures/Images/TC15.png",
+      "meanConfidence" : 0.6111111,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "白鹭教育科技"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Egret Education Technology"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "温以宁 Wen Yining"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "教研负责人 / Head of Curriculum"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 135 0000 2929"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 020-0000 3030"
+        },
+        {
+          "confidence" : 1,
+          "text" : "yining.wen@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/egret"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "广州市天河区珠江新城华夏路 0000号 1601"
+        }
+      ],
+      "ocrRawText" : "白鹭教育科技\nEgret Education Technology\n温以宁 Wen Yining\n教研负责人 / Head of Curriculum\nM 135 0000 2929\nT 020-0000 3030\nyining.wen@example.com\nwww.example.com/egret\n广州市天河区珠江新城华夏路 0000号 1601",
+      "scenario" : "中英双语-教育行业"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 174.9,
+      "fields" : {
+        "address" : "Unit 7, Tileyard Road, London N7 9AH",
+        "company" : "Fold & Field",
+        "email" : "alex@example.com",
+        "jobTitle" : "Founder",
+        "mobile" : "+447700900123",
+        "name" : "Alex Turner"
+      },
+      "id" : "TC16",
+      "imagePath" : "Fixtures/Images/TC16.png",
+      "meanConfidence" : 0.4333333,
+      "ocrLines" : [
+        {
+          "confidence" : 0.3,
+          "text" : "Fold & Field • Alex Turner •Founder•"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "alex@example.com •+44 7700 900123• Unit 7，"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Tileyard Road, London N7 9AH"
+        }
+      ],
+      "ocrRawText" : "Fold & Field • Alex Turner •Founder•\nalex@example.com •+44 7700 900123• Unit 7，\nTileyard Road, London N7 9AH",
+      "scenario" : "英文-创意行业-单行堆叠"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 147.1,
+      "fields" : {
+        "address" : "北京市西城区前门大街 0000号 满福楼 2层",
+        "company" : "满福楼餐饮管理有限公司",
+        "jobTitle" : "门店经理",
+        "mobile" : "13700003131",
+        "name" : "赵小满",
+        "phone" : "01000003232"
+      },
+      "id" : "TC17",
+      "imagePath" : "Fixtures/Images/TC17.png",
+      "meanConfidence" : 0.6666667,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "满福楼餐饮管理有限公司"
+        },
+        {
+          "confidence" : 1,
+          "text" : "赵小满"
+        },
+        {
+          "confidence" : 1,
+          "text" : "门店经理"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "手机 137 0000 3131"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "电话 010-0000 3232"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "北京市西城区前门大街 0000号 满福楼 2层"
+        }
+      ],
+      "ocrRawText" : "满福楼餐饮管理有限公司\n赵小满\n门店经理\n手机 137 0000 3131\n电话 010-0000 3232\n北京市西城区前门大街 0000号 满福楼 2层",
+      "scenario" : "中文-餐饮-无邮箱无网站"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 170.6,
+      "fields" : {
+        "address" : "东莞市长安镇振安路0000号 恒锐工业园 A 栋",
+        "company" : "恒锐精密制造（东莞）有限公司",
+        "email" : "han.mu@example.com",
+        "jobTitle" : "采购主管",
+        "mobile" : "13800003333",
+        "name" : "韩沐",
+        "phone" : "076900003434 / 076900003636"
+      },
+      "id" : "TC18",
+      "imagePath" : "Fixtures/Images/TC18.png",
+      "meanConfidence" : 0.625,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "恒锐精密制造（东莞）有限公司"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "韩沐"
+        },
+        {
+          "confidence" : 1,
+          "text" : "采购主管"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 138 0000 3333"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 0769-0000 3434 / 0769-0000 3636"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F 0769-0000 3535"
+        },
+        {
+          "confidence" : 1,
+          "text" : "han.mu@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "东莞市长安镇振安路0000号 恒锐工业园 A 栋"
+        }
+      ],
+      "ocrRawText" : "恒锐精密制造（东莞）有限公司\n韩沐\n采购主管\nM 138 0000 3333\nT 0769-0000 3434 / 0769-0000 3636\nF 0769-0000 3535\nhan.mu@example.com\n东莞市长安镇振安路0000号 恒锐工业园 A 栋",
+      "scenario" : "中文-多座机+传真"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 174.6,
+      "fields" : {
+        "address" : "3 Trinity Buoy Wharf, London E14 OJY",
+        "company" : "Meridian Freight Ltd.",
+        "email" : "charlotte.hughes@example.co.uk",
+        "jobTitle" : "Logistics Coordinator",
+        "mobile" : "+447700900456",
+        "name" : "Charlotte Hughes",
+        "phone" : "02000000789",
+        "website" : "https://www.example.co.uk/meridian"
+      },
+      "id" : "TC19",
+      "imagePath" : "Fixtures/Images/TC19.png",
+      "meanConfidence" : 0.5,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Meridian Freight Ltd."
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Charlotte Hughes"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Logistics Coordinator"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Mobile +44 7700 900456"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Tel 020 0000 0789"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "charlotte.hughes@example.co.uk"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.co.uk/meridian"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "3 Trinity Buoy Wharf, London E14 OJY"
+        }
+      ],
+      "ocrRawText" : "Meridian Freight Ltd.\nCharlotte Hughes\nLogistics Coordinator\nMobile +44 7700 900456\nTel 020 0000 0789\ncharlotte.hughes@example.co.uk\nwww.example.co.uk/meridian\n3 Trinity Buoy Wharf, London E14 OJY",
+      "scenario" : "英文-英国国际号码"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 173.8,
+      "fields" : {
+        "address" : "武汉市武昌区解放路0000号 仁和医院门诊楼 12层",
+        "company" : "仁和医院",
+        "email" : "shao.huajjin@example.com",
+        "jobTitle" : "主任医师 / 教授",
+        "mobile" : "13900003737",
+        "name" : "邵怀瑾",
+        "phone" : "02700003838"
+      },
+      "id" : "TC20",
+      "imagePath" : "Fixtures/Images/TC20.png",
+      "meanConfidence" : 0.5375,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "仁和医院"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "邵怀瑾"
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "主任医师 / 教授"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 139 0000 3737"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 027-0000 3838"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F 027-0000 3939"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "shao.huajjin@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "武汉市武昌区解放路0000号 仁和医院门诊楼 12层"
+        }
+      ],
+      "ocrRawText" : "仁和医院\n邵怀瑾\n主任医师 / 教授\nM 139 0000 3737\nT 027-0000 3838\nF 027-0000 3939\nshao.huajjin@example.com\n武汉市武昌区解放路0000号 仁和医院门诊楼 12层",
+      "scenario" : "中文-医院-多职称"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 138.8,
+      "fields" : {
+        "company" : "黎岸工作室",
+        "email" : "fangli@example.com",
+        "jobTitle" : "独立插画师 / Illustrator",
+        "name" : "方黎 Fang Li",
+        "website" : "https://www.example.com/lian"
+      },
+      "id" : "TC21",
+      "imagePath" : "Fixtures/Images/TC21.png",
+      "meanConfidence" : 0.75,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "黎岸工作室"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Li'an Studio"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "方黎 Fang Li"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "独立插画师 Illustrator"
+        },
+        {
+          "confidence" : 1,
+          "text" : "fangli@example.com"
+        },
+        {
+          "confidence" : 1,
+          "text" : "www.example.com/lian"
+        }
+      ],
+      "ocrRawText" : "黎岸工作室\nLi'an Studio\n方黎 Fang Li\n独立插画师 Illustrator\nfangli@example.com\nwww.example.com/lian",
+      "scenario" : "中英双语-仅邮箱与网站（无电话无地址）"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 201.2,
+      "fields" : {
+        "address" : "250 Park Avenue, 17th Floor, New York, NY 10177",
+        "company" : "Pike & Rowe LLP",
+        "email" : "jonathan.pike@example.com",
+        "jobTitle" : "Partner",
+        "mobile" : "+12125550188",
+        "name" : "Jonathan Pike Jr.",
+        "phone" : "+12125550199",
+        "website" : "https://www.example.com/pikerowe"
+      },
+      "id" : "TC22",
+      "imagePath" : "Fixtures/Images/TC22.png",
+      "meanConfidence" : 0.5555556,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Pike & Rowe LLP"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Jonathan Pike Jr."
+        },
+        {
+          "confidence" : 1,
+          "text" : "Partner"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "+1 212 555 0188"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T +1 212 555 0199"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F +1 212 555 0200"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "jonathan.pike@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/pikerowe"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "250 Park Avenue, 17th Floor, New York, NY 10177"
+        }
+      ],
+      "ocrRawText" : "Pike & Rowe LLP\nJonathan Pike Jr.\nPartner\n+1 212 555 0188\nT +1 212 555 0199\nF +1 212 555 0200\njonathan.pike@example.com\nwww.example.com/pikerowe\n250 Park Avenue, 17th Floor, New York, NY 10177",
+      "scenario" : "英文-姓名后缀+三号码"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 160.8,
+      "fields" : {
+        "address" : "重庆市渝北区龙兴大道 0000号3栋8层",
+        "company" : "澜图地理信息科技有限公司",
+        "email" : "ouyang.lan@example.com",
+        "jobTitle" : "项目经理",
+        "mobile" : "13500004040",
+        "name" : "欧阳澜",
+        "phone" : "02300004141",
+        "website" : "https://www.example.com/lantu"
+      },
+      "id" : "TC23",
+      "imagePath" : "Fixtures/Images/TC23.png",
+      "meanConfidence" : 0.75,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "澜图地理信息科技有限公司"
+        },
+        {
+          "confidence" : 1,
+          "text" : "欧阳澜"
+        },
+        {
+          "confidence" : 1,
+          "text" : "项目经理"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 135 0000 4040"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 023-0000 4141"
+        },
+        {
+          "confidence" : 1,
+          "text" : "ouyang.lan@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/lantu"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "重庆市渝北区龙兴大道 0000号3栋8层"
+        }
+      ],
+      "ocrRawText" : "澜图地理信息科技有限公司\n欧阳澜\n项目经理\nM 135 0000 4040\nT 023-0000 4141\nouyang.lan@example.com\nwww.example.com/lantu\n重庆市渝北区龙兴大道 0000号3栋8层",
+      "scenario" : "中文-复姓"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 176.3,
+      "fields" : {
+        "address" : "浙江省杭州市西湖区文三路 0000号创意大厦 A座12楼1208室",
+        "company" : "森屿生活",
+        "email" : "bai.lu@example.com",
+        "jobTitle" : "品牌主理人 / Brand Director",
+        "mobile" : "13600004242",
+        "name" : "白露 Bai Lu",
+        "phone" : "057100004343",
+        "website" : "https://www.example.com/senyu"
+      },
+      "id" : "TC24",
+      "imagePath" : "Fixtures/Images/TC24.png",
+      "meanConfidence" : 0.5888889,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "森屿生活"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "白露 Bai Lu"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "品牌主理人 Brand Director"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 136 0000 4242"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 0571-0000 4343"
+        },
+        {
+          "confidence" : 1,
+          "text" : "bai.lu@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/senyu"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "浙江省杭州市西湖区文三路 0000号"
+        },
+        {
+          "confidence" : 0.3,
+          "text" : "创意大厦 A座12楼1208室"
+        }
+      ],
+      "ocrRawText" : "森屿生活\n白露 Bai Lu\n品牌主理人 Brand Director\nM 136 0000 4242\nT 0571-0000 4343\nbai.lu@example.com\nwww.example.com/senyu\n浙江省杭州市西湖区文三路 0000号\n创意大厦 A座12楼1208室",
+      "scenario" : "中英双语-多行复杂地址"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 181.8,
+      "fields" : {
+        "address" : "1 Market Street, Suite 3600, San Francisco, CA 94105",
+        "company" : "Brightline Ventures LLC",
+        "email" : "grace.odonnell@example.com",
+        "jobTitle" : "Principal",
+        "mobile" : "+13105550155",
+        "name" : "Grace O'Donnell",
+        "phone" : "+13105550166",
+        "website" : "https://www.example.com/brightline"
+      },
+      "id" : "TC25",
+      "imagePath" : "Fixtures/Images/TC25.png",
+      "meanConfidence" : 0.625,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Brightline Ventures LLC"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Grace O'Donnell"
+        },
+        {
+          "confidence" : 1,
+          "text" : "Principal"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "+1 310 555 0155"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T +1 310 555 0166"
+        },
+        {
+          "confidence" : 1,
+          "text" : "grace.odonnell@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/brightline"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "1 Market Street, Suite 3600, San Francisco, CA 94105"
+        }
+      ],
+      "ocrRawText" : "Brightline Ventures LLC\nGrace O'Donnell\nPrincipal\n+1 310 555 0155\nT +1 310 555 0166\ngrace.odonnell@example.com\nwww.example.com/brightline\n1 Market Street, Suite 3600, San Francisco, CA 94105",
+      "scenario" : "英文-公司名含 & 与姓名含 '"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 161.1,
+      "fields" : {
+        "address" : "北京市海淀区中关村大街0000号1号楼15层",
+        "company" : "无界互动（北京）科技有限公司",
+        "jobTitle" : "技术负责人",
+        "mobile" : "13700004444",
+        "name" : "郑执",
+        "phone" : "01000004545",
+        "website" : "https://www.example.com/wujle"
+      },
+      "id" : "TC26",
+      "imagePath" : "Fixtures/Images/TC26.png",
+      "meanConfidence" : 0.71428573,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "无界互动（北京）科技有限公司"
+        },
+        {
+          "confidence" : 1,
+          "text" : "郑执"
+        },
+        {
+          "confidence" : 1,
+          "text" : "技术负责人"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 137 0000 4444"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 010-0000 4545"
+        },
+        {
+          "confidence" : 1,
+          "text" : "www.example.com/wujle"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "北京市海淀区中关村大街0000号1号楼15层"
+        }
+      ],
+      "ocrRawText" : "无界互动（北京）科技有限公司\n郑执\n技术负责人\nM 137 0000 4444\nT 010-0000 4545\nwww.example.com/wujle\n北京市海淀区中关村大街0000号1号楼15层",
+      "scenario" : "中文-互联网行业-无邮箱"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 174.5,
+      "fields" : {
+        "address" : "上海市徐汇区衡山路0000号4楼",
+        "company" : "潮汐音乐",
+        "email" : "xingye_xu2024@example.com",
+        "jobTitle" : "艺人经纪 / Artist Manager",
+        "mobile" : "13800004646",
+        "name" : "许星野 Xu Xingye",
+        "phone" : "02100004747",
+        "website" : "https://www.example.com/tidal"
+      },
+      "id" : "TC27",
+      "imagePath" : "Fixtures/Images/TC27.png",
+      "meanConfidence" : 0.5555556,
+      "ocrLines" : [
+        {
+          "confidence" : 1,
+          "text" : "潮汐音乐"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Tidal Music"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "许星野 Xu Xingye"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "艺人经纪 Artist Manager"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 138 0000 4646"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 021-0000 4747"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "xingye_xu2024@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/tidal"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "上海市徐汇区衡山路0000号4楼"
+        }
+      ],
+      "ocrRawText" : "潮汐音乐\nTidal Music\n许星野 Xu Xingye\n艺人经纪 Artist Manager\nM 138 0000 4646\nT 021-0000 4747\nxingye_xu2024@example.com\nwww.example.com/tidal\n上海市徐汇区衡山路0000号4楼",
+      "scenario" : "中英双语-邮箱含下划线与数字"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 168,
+      "fields" : {
+        "company" : "Larkin & Co.",
+        "email" : "noah.feldman@example.com",
+        "jobTitle" : "Sales Director",
+        "mobile" : "+14155550177",
+        "name" : "Noah Feldman",
+        "phone" : "+14155550188",
+        "website" : "https://www.example.com/larkin"
+      },
+      "id" : "TC28",
+      "imagePath" : "Fixtures/Images/TC28.png",
+      "meanConfidence" : 0.5,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Larkin & Co."
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Noah Feldman"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Sales Director"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "+1 415 555 0177"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T +1 415 555 0188"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "noah.feldman@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/larkin"
+        }
+      ],
+      "ocrRawText" : "Larkin & Co.\nNoah Feldman\nSales Director\n+1 415 555 0177\nT +1 415 555 0188\nnoah.feldman@example.com\nwww.example.com/larkin",
+      "scenario" : "英文-无地址"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 178.9,
+      "fields" : {
+        "address" : "苏州市工业园区星湖街0000号 天工大厦6 层",
+        "company" : "天工智造（苏州）有限公司",
+        "email" : "fu.mingyuan@example.com",
+        "jobTitle" : "总经理",
+        "mobile" : "13900004848",
+        "name" : "傅明远",
+        "phone" : "051200004949",
+        "website" : "https://www.example.com/tiangong"
+      },
+      "id" : "TC29",
+      "imagePath" : "Fixtures/Images/TC29.png",
+      "meanConfidence" : 0.6666667,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "天工智造（苏州）有限公司"
+        },
+        {
+          "confidence" : 1,
+          "text" : "傅明远"
+        },
+        {
+          "confidence" : 1,
+          "text" : "总经理"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "M 139 0000 4848"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "T 0512-0000 4949"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "F 0512-0000 5050"
+        },
+        {
+          "confidence" : 1,
+          "text" : "fu.mingyuan@example.com"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "www.example.com/tiangong"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "苏州市工业园区星湖街0000号 天工大厦6 层"
+        }
+      ],
+      "ocrRawText" : "天工智造（苏州）有限公司\n傅明远\n总经理\nM 139 0000 4848\nT 0512-0000 4949\nF 0512-0000 5050\nfu.mingyuan@example.com\nwww.example.com/tiangong\n苏州市工业园区星湖街0000号 天工大厦6 层",
+      "scenario" : "中文-全字段金样本"
+    },
+    {
+      "detectionConfidence" : 1,
+      "didDetectCardBoundary" : true,
+      "durationMilliseconds" : 226.3,
+      "fields" : {
+        "address" : "4100 E 2nd Avenue, Denver, CO 80220",
+        "company" : "Cobalt Ridge Inc.",
+        "email" : "ethan.cole@example.com",
+        "jobTitle" : "VP Engineering",
+        "mobile" : "+13035550121",
+        "name" : "Ethan Cole",
+        "phone" : "+13035550122",
+        "website" : "https://www.example.com/cobaltridge"
+      },
+      "id" : "TC30",
+      "imagePath" : "Fixtures/Images/TC30.png",
+      "meanConfidence" : 0.6,
+      "ocrLines" : [
+        {
+          "confidence" : 0.5,
+          "text" : "Cobalt Ridge Inc. | Denver, CO"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "VP Engineering"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Ethan Cole"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Mobile： +1 303 555 0121"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Direct： +1 303 555 0122"
+        },
+        {
+          "confidence" : 1,
+          "text" : "ethan.cole@example.com"
+        },
+        {
+          "confidence" : 1,
+          "text" : "https://www.example.com/cobaltridge"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "4100 E 2nd Avenue, Denver, CO 80220"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Scanned 2024-11-02 • CONFIDENTIAL"
+        },
+        {
+          "confidence" : 0.5,
+          "text" : "Cobalt Ridge inc. | Building the future"
+        }
+      ],
+      "ocrRawText" : "Cobalt Ridge Inc. | Denver, CO\nVP Engineering\nEthan Cole\nMobile： +1 303 555 0121\nDirect： +1 303 555 0122\nethan.cole@example.com\nhttps://www.example.com/cobaltridge\n4100 E 2nd Avenue, Denver, CO 80220\nScanned 2024-11-02 • CONFIDENTIAL\nCobalt Ridge inc. | Building the future",
+      "scenario" : "英文-扫描噪声与重复行"
+    }
+  ]
+}

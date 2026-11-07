@@ -1,0 +1,107 @@
+{
+  "id": "TC09",
+  "scenario": "英文-多行地址",
+  "image": "Fixtures/Images/TC09.png",
+  "lines": [
+    {
+      "text": "Verdant Supply Co.",
+      "confidence": 0.906,
+      "bbox": [
+        0.1488,
+        0.7845,
+        0.2519,
+        0.053
+      ]
+    },
+    {
+      "text": "Marcus Reed",
+      "confidence": 0.916,
+      "bbox": [
+        0.1477,
+        0.7279,
+        0.14,
+        0.043
+      ]
+    },
+    {
+      "text": "Operations Manager",
+      "confidence": 0.927,
+      "bbox": [
+        0.1469,
+        0.6804,
+        0.165,
+        0.033
+      ]
+    },
+    {
+      "text": "Mobile +1 617 555 0199",
+      "confidence": 0.965,
+      "bbox": [
+        0.1462,
+        0.6366,
+        0.2031,
+        0.033
+      ]
+    },
+    {
+      "text": "Office +1 617 555 0200",
+      "confidence": 0.966,
+      "bbox": [
+        0.1455,
+        0.5937,
+        0.1994,
+        0.033
+      ]
+    },
+    {
+      "text": "marcus.reed@example.com",
+      "confidence": 0.935,
+      "bbox": [
+        0.1448,
+        0.5503,
+        0.2188,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/verdant",
+      "confidence": 0.937,
+      "bbox": [
+        0.1441,
+        0.5074,
+        0.2144,
+        0.033
+      ]
+    },
+    {
+      "text": "88 Harbor Street",
+      "confidence": 0.906,
+      "bbox": [
+        0.1434,
+        0.4661,
+        0.1375,
+        0.033
+      ]
+    },
+    {
+      "text": "Building C, Floor 3",
+      "confidence": 0.956,
+      "bbox": [
+        0.1427,
+        0.4228,
+        0.1487,
+        0.033
+      ]
+    },
+    {
+      "text": "Boston, MA 02110",
+      "confidence": 0.889,
+      "bbox": [
+        0.142,
+        0.3798,
+        0.1531,
+        0.033
+      ]
+    }
+  ]
+}

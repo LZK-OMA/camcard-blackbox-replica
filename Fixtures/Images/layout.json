@@ -1,0 +1,182 @@
+{
+  "TC01": {
+    "scenario": "中文-标准横版-单手机",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC01.png"
+  },
+  "TC02": {
+    "scenario": "中文-无邮箱无网站",
+    "angle": 0.0,
+    "lines": 6,
+    "image": "Fixtures/Images/TC02.png"
+  },
+  "TC03": {
+    "scenario": "中文-无网站",
+    "angle": 0.0,
+    "lines": 6,
+    "image": "Fixtures/Images/TC03.png"
+  },
+  "TC04": {
+    "scenario": "中英双语-多电话（手机/办公/传真）",
+    "angle": 0.0,
+    "lines": 10,
+    "image": "Fixtures/Images/TC04.png"
+  },
+  "TC05": {
+    "scenario": "英文-标准美国号码",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC05.png"
+  },
+  "TC06": {
+    "scenario": "英文-无手机（仅办公电话）",
+    "angle": 0.0,
+    "lines": 7,
+    "image": "Fixtures/Images/TC06.png"
+  },
+  "TC07": {
+    "scenario": "中文-竖排异形版式",
+    "angle": 0.0,
+    "lines": 132,
+    "image": "Fixtures/Images/TC07.png"
+  },
+  "TC08": {
+    "scenario": "中文-双手机号",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC08.png"
+  },
+  "TC09": {
+    "scenario": "英文-多行地址",
+    "angle": 1.5,
+    "lines": 10,
+    "image": "Fixtures/Images/TC09.png"
+  },
+  "TC10": {
+    "scenario": "中文-金融-带传真",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC10.png"
+  },
+  "TC11": {
+    "scenario": "中英双语-中英文姓名",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC11.png"
+  },
+  "TC12": {
+    "scenario": "中文-无公司（自由职业）",
+    "angle": 0.0,
+    "lines": 6,
+    "image": "Fixtures/Images/TC12.png"
+  },
+  "TC13": {
+    "scenario": "英文-缺职位",
+    "angle": 0.0,
+    "lines": 7,
+    "image": "Fixtures/Images/TC13.png"
+  },
+  "TC14": {
+    "scenario": "中文-事业单位-无手机",
+    "angle": 0.0,
+    "lines": 7,
+    "image": "Fixtures/Images/TC14.png"
+  },
+  "TC15": {
+    "scenario": "中英双语-教育行业",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC15.png"
+  },
+  "TC16": {
+    "scenario": "英文-创意行业-单行堆叠",
+    "angle": -1.2,
+    "lines": 3,
+    "image": "Fixtures/Images/TC16.png"
+  },
+  "TC17": {
+    "scenario": "中文-餐饮-无邮箱无网站",
+    "angle": 0.0,
+    "lines": 6,
+    "image": "Fixtures/Images/TC17.png"
+  },
+  "TC18": {
+    "scenario": "中文-多座机+传真",
+    "angle": 0.0,
+    "lines": 8,
+    "image": "Fixtures/Images/TC18.png"
+  },
+  "TC19": {
+    "scenario": "英文-英国国际号码",
+    "angle": -0.8,
+    "lines": 8,
+    "image": "Fixtures/Images/TC19.png"
+  },
+  "TC20": {
+    "scenario": "中文-医院-多职称",
+    "angle": 0.0,
+    "lines": 8,
+    "image": "Fixtures/Images/TC20.png"
+  },
+  "TC21": {
+    "scenario": "中英双语-仅邮箱与网站（无电话无地址）",
+    "angle": 0.0,
+    "lines": 6,
+    "image": "Fixtures/Images/TC21.png"
+  },
+  "TC22": {
+    "scenario": "英文-姓名后缀+三号码",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC22.png"
+  },
+  "TC23": {
+    "scenario": "中文-复姓",
+    "angle": 0.0,
+    "lines": 8,
+    "image": "Fixtures/Images/TC23.png"
+  },
+  "TC24": {
+    "scenario": "中英双语-多行复杂地址",
+    "angle": -2.5,
+    "lines": 9,
+    "image": "Fixtures/Images/TC24.png"
+  },
+  "TC25": {
+    "scenario": "英文-公司名含 & 与姓名含 '",
+    "angle": 1.0,
+    "lines": 8,
+    "image": "Fixtures/Images/TC25.png"
+  },
+  "TC26": {
+    "scenario": "中文-互联网行业-无邮箱",
+    "angle": 0.0,
+    "lines": 7,
+    "image": "Fixtures/Images/TC26.png"
+  },
+  "TC27": {
+    "scenario": "中英双语-邮箱含下划线与数字",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC27.png"
+  },
+  "TC28": {
+    "scenario": "英文-无地址",
+    "angle": 0.0,
+    "lines": 7,
+    "image": "Fixtures/Images/TC28.png"
+  },
+  "TC29": {
+    "scenario": "中文-全字段金样本",
+    "angle": 0.0,
+    "lines": 9,
+    "image": "Fixtures/Images/TC29.png"
+  },
+  "TC30": {
+    "scenario": "英文-扫描噪声与重复行",
+    "angle": 4.0,
+    "lines": 10,
+    "image": "Fixtures/Images/TC30.png"
+  }
+}

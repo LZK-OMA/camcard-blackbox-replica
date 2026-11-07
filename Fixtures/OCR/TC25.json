@@ -1,0 +1,87 @@
+{
+  "id": "TC25",
+  "scenario": "英文-公司名含 & 与姓名含 '",
+  "image": "Fixtures/Images/TC25.png",
+  "lines": [
+    {
+      "text": "Brightline Ventures LLC",
+      "confidence": 0.944,
+      "bbox": [
+        0.1471,
+        0.7806,
+        0.3106,
+        0.053
+      ]
+    },
+    {
+      "text": "Grace O'Donnell",
+      "confidence": 0.986,
+      "bbox": [
+        0.1464,
+        0.7235,
+        0.1694,
+        0.043
+      ]
+    },
+    {
+      "text": "Principal",
+      "confidence": 0.915,
+      "bbox": [
+        0.1458,
+        0.678,
+        0.0681,
+        0.033
+      ]
+    },
+    {
+      "text": "+1 310 555 0155",
+      "confidence": 0.983,
+      "bbox": [
+        0.1453,
+        0.6339,
+        0.1444,
+        0.033
+      ]
+    },
+    {
+      "text": "T +1 310 555 0166",
+      "confidence": 0.986,
+      "bbox": [
+        0.1449,
+        0.5907,
+        0.1606,
+        0.033
+      ]
+    },
+    {
+      "text": "grace.odonnell@example.com",
+      "confidence": 0.93,
+      "bbox": [
+        0.1444,
+        0.5466,
+        0.2362,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/brightline",
+      "confidence": 0.912,
+      "bbox": [
+        0.1439,
+        0.5038,
+        0.2281,
+        0.033
+      ]
+    },
+    {
+      "text": "1 Market Street, Suite 3600, San Francisco, CA 94105",
+      "confidence": 0.905,
+      "bbox": [
+        0.1434,
+        0.4578,
+        0.4406,
+        0.033
+      ]
+    }
+  ]
+}

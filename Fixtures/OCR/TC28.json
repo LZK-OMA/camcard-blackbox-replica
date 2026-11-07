@@ -1,0 +1,77 @@
+{
+  "id": "TC28",
+  "scenario": "英文-无地址",
+  "image": "Fixtures/Images/TC28.png",
+  "lines": [
+    {
+      "text": "Larkin & Co.",
+      "confidence": 0.901,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.16,
+        0.053
+      ]
+    },
+    {
+      "text": "Noah Feldman",
+      "confidence": 0.98,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.1512,
+        0.043
+      ]
+    },
+    {
+      "text": "Sales Director",
+      "confidence": 0.967,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.1125,
+        0.033
+      ]
+    },
+    {
+      "text": "+1 415 555 0177",
+      "confidence": 0.986,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.1444,
+        0.033
+      ]
+    },
+    {
+      "text": "T +1 415 555 0188",
+      "confidence": 0.916,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.1606,
+        0.033
+      ]
+    },
+    {
+      "text": "noah.feldman@example.com",
+      "confidence": 0.923,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.2275,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/larkin",
+      "confidence": 0.963,
+      "bbox": [
+        0.1437,
+        0.497,
+        0.1963,
+        0.033
+      ]
+    }
+  ]
+}

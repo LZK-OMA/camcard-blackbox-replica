@@ -1,0 +1,482 @@
+[
+  {
+    "id": "TC01",
+    "scenario": "中文-标准横版-单手机",
+    "raw_text": "星澜科技（深圳）有限公司\nSHENZHEN XINGLAN TECHNOLOGY CO., LTD.\n产品总监  陈亦舟\nMobile 138 0000 1234\nTel: 0755-0000 5678\nE-mail: Chen.Yizhou@Example.com\nwww.example.com\n深圳市南山区科苑南路 0000 号 8 栋 1201\n让数据流动",
+    "ground_truth": {
+      "name": "陈亦舟",
+      "company": "星澜科技（深圳）有限公司",
+      "jobTitle": "产品总监",
+      "mobile": "13800001234",
+      "phone": "075500005678",
+      "fax": null,
+      "email": "chen.yizhou@example.com",
+      "website": "https://www.example.com",
+      "address": "深圳市南山区科苑南路 0000 号 8 栋 1201"
+    }
+  },
+  {
+    "id": "TC02",
+    "scenario": "中文-无邮箱无网站",
+    "raw_text": "衡远咨询（上海）有限公司\n高级合伙人\n林知微\n手机 139 0000 1111\n电话 021-0000 2222\n上海市静安区南京西路 0000 号 恒隆广场 2 座 3301",
+    "ground_truth": {
+      "name": "林知微",
+      "company": "衡远咨询（上海）有限公司",
+      "jobTitle": "高级合伙人",
+      "mobile": "13900001111",
+      "phone": "02100002222",
+      "fax": null,
+      "email": null,
+      "website": null,
+      "address": "上海市静安区南京西路 0000 号 恒隆广场 2 座 3301"
+    }
+  },
+  {
+    "id": "TC03",
+    "scenario": "中文-无网站",
+    "raw_text": "云栖数据科技有限公司\n沈亦白 | 数据架构师\nM: 137 0000 3333\nT: 0571-0000 4444\nshen.yibai@example.cn\n杭州市余杭区文一西路 0000 号 5 号楼 602",
+    "ground_truth": {
+      "name": "沈亦白",
+      "company": "云栖数据科技有限公司",
+      "jobTitle": "数据架构师",
+      "mobile": "13700003333",
+      "phone": "057100004444",
+      "fax": null,
+      "email": "shen.yibai@example.cn",
+      "website": null,
+      "address": "杭州市余杭区文一西路 0000 号 5 号楼 602"
+    }
+  },
+  {
+    "id": "TC04",
+    "scenario": "中英双语-多电话（手机/办公/传真）",
+    "raw_text": "Lanting International Hotels Group\n澜庭国际酒店集团\n周慕青  Zhou Muqing\nMarketing Director / 市场总监\nMobile: +86 136 0000 5555\nOffice: 010-0000 6666\nFax: 010-0000 7777\nmuqing.zhou@example.com\nwww.example.com/lanting\n北京市朝阳区建国路 0000 号 澜庭大厦 18 层",
+    "ground_truth": {
+      "name": "周慕青 Zhou Muqing",
+      "company": "澜庭国际酒店集团",
+      "jobTitle": "市场总监 / Marketing Director",
+      "mobile": "13600005555",
+      "phone": "01000006666",
+      "fax": "01000007777",
+      "email": "muqing.zhou@example.com",
+      "website": "https://www.example.com/lanting",
+      "address": "北京市朝阳区建国路 0000 号 澜庭大厦 18 层"
+    }
+  },
+  {
+    "id": "TC05",
+    "scenario": "英文-标准美国号码",
+    "raw_text": "Northbridge Analytics Ltd.\nDaniel Whitfield\nHead of Research\n+1 202 555 0143 (Mobile)\nT 202.555.0177\nF 202.555.0188\nDaniel.Whitfield@Example.com\nhttps://www.example.com\n1200 K Street NW, Suite 400, Washington, DC 20005",
+    "ground_truth": {
+      "name": "Daniel Whitfield",
+      "company": "Northbridge Analytics Ltd.",
+      "jobTitle": "Head of Research",
+      "mobile": "+12025550143",
+      "phone": "2025550177",
+      "fax": "2025550188",
+      "email": "daniel.whitfield@example.com",
+      "website": "https://www.example.com",
+      "address": "1200 K Street NW, Suite 400, Washington, DC 20005"
+    }
+  },
+  {
+    "id": "TC06",
+    "scenario": "英文-无手机（仅办公电话）",
+    "raw_text": "Halcyon Design Studio\nEmily Carr\nCreative Director\nT: 020 5550 0182\nemily.carr@example.co.uk\nwww.example.co.uk\n14 Camden Passage, London N1 8EA",
+    "ground_truth": {
+      "name": "Emily Carr",
+      "company": "Halcyon Design Studio",
+      "jobTitle": "Creative Director",
+      "mobile": null,
+      "phone": "02055500182",
+      "fax": null,
+      "email": "emily.carr@example.co.uk",
+      "website": "https://www.example.co.uk",
+      "address": "14 Camden Passage, London N1 8EA"
+    }
+  },
+  {
+    "id": "TC07",
+    "scenario": "中文-竖排异形版式",
+    "raw_text": "明 道 律 师 事 务 所\n顾 清 和\n执 业 律 师\nAttorney at Law\nM 135 0000 8888\nT 025-0000 9999\nF 025-0000 1010\ngu.qinghe@example.com\n南京市鼓楼区中山路 0000 号 国际大厦 26 层",
+    "ground_truth": {
+      "name": "顾清和",
+      "company": "明道律师事务所",
+      "jobTitle": "执业律师 / Attorney at Law",
+      "mobile": "13500008888",
+      "phone": "02500009999",
+      "fax": "02500001010",
+      "email": "gu.qinghe@example.com",
+      "website": null,
+      "address": "南京市鼓楼区中山路 0000 号 国际大厦 26 层"
+    }
+  },
+  {
+    "id": "TC08",
+    "scenario": "中文-双手机号",
+    "raw_text": "星野文化传媒\n苏晚\n内容运营经理\n手机1 133 0000 1212\n手机2 138 0000 1313\n010-0000 1414\nsu.wan@example.com\nwww.example.com/xingye\n北京市朝阳区酒仙桥路 0000 号 751 园区 A 座",
+    "ground_truth": {
+      "name": "苏晚",
+      "company": "星野文化传媒",
+      "jobTitle": "内容运营经理",
+      "mobile": "13300001212 / 13800001313",
+      "phone": "01000001414",
+      "fax": null,
+      "email": "su.wan@example.com",
+      "website": "https://www.example.com/xingye",
+      "address": "北京市朝阳区酒仙桥路 0000 号 751 园区 A 座"
+    }
+  },
+  {
+    "id": "TC09",
+    "scenario": "英文-多行地址",
+    "raw_text": "Verdant Supply Co.\nMarcus Reed\nOperations Manager\nMobile +1 617 555 0199\nOffice +1 617 555 0200\nmarcus.reed@example.com\nwww.example.com/verdant\n88 Harbor Street\nBuilding C, Floor 3\nBoston, MA 02110",
+    "ground_truth": {
+      "name": "Marcus Reed",
+      "company": "Verdant Supply Co.",
+      "jobTitle": "Operations Manager",
+      "mobile": "+16175550199",
+      "phone": "+16175550200",
+      "fax": null,
+      "email": "marcus.reed@example.com",
+      "website": "https://www.example.com/verdant",
+      "address": "88 Harbor Street, Building C, Floor 3, Boston, MA 02110"
+    }
+  },
+  {
+    "id": "TC10",
+    "scenario": "中文-金融-带传真",
+    "raw_text": "中衡资本\n高维桢\n投资总监\nM: 138 0000 2020\nT: 021-0000 2121\nF: 021-0000 2222\ngaoweizhen@example.com\nwww.example.com/zhongheng\n上海市浦东新区陆家嘴环路 0000 号 国金中心 2 期 45 层",
+    "ground_truth": {
+      "name": "高维桢",
+      "company": "中衡资本",
+      "jobTitle": "投资总监",
+      "mobile": "13800002020",
+      "phone": "02100002121",
+      "fax": "02100002222",
+      "email": "gaoweizhen@example.com",
+      "website": "https://www.example.com/zhongheng",
+      "address": "上海市浦东新区陆家嘴环路 0000 号 国金中心 2 期 45 层"
+    }
+  },
+  {
+    "id": "TC11",
+    "scenario": "中英双语-中英文姓名",
+    "raw_text": "澄观建筑设计事务所\nChengguan Architecture\n江砚 Jiang Yan\n主持建筑师 Principal Architect\nM 139 0000 2323\nT 028-0000 2424\njiang.yan@example.com\nwww.example.com/chengguan\n成都市锦江区红星路 0000 号 创意产业园 B 座 5 层",
+    "ground_truth": {
+      "name": "江砚 Jiang Yan",
+      "company": "澄观建筑设计事务所",
+      "jobTitle": "主持建筑师 / Principal Architect",
+      "mobile": "13900002323",
+      "phone": "02800002424",
+      "fax": null,
+      "email": "jiang.yan@example.com",
+      "website": "https://www.example.com/chengguan",
+      "address": "成都市锦江区红星路 0000 号 创意产业园 B 座 5 层"
+    }
+  },
+  {
+    "id": "TC12",
+    "scenario": "中文-无公司（自由职业）",
+    "raw_text": "何一鸣\n独立摄影师\n136 0000 2525\nheyiming@example.com\nwww.example.com/heyiming\n广州市海珠区新港中路 0000 号 302 室",
+    "ground_truth": {
+      "name": "何一鸣",
+      "company": null,
+      "jobTitle": "独立摄影师",
+      "mobile": "13600002525",
+      "phone": null,
+      "fax": null,
+      "email": "heyiming@example.com",
+      "website": "https://www.example.com/heyiming",
+      "address": "广州市海珠区新港中路 0000 号 302 室"
+    }
+  },
+  {
+    "id": "TC13",
+    "scenario": "英文-缺职位",
+    "raw_text": "Kestrel Software\nOlivia Bennett\n+1 408 555 0166\n+1 408 555 0167\nolivia.bennett@example.com\nwww.example.com/kestrel\n500 Union Avenue, San Jose, CA 95126",
+    "ground_truth": {
+      "name": "Olivia Bennett",
+      "company": "Kestrel Software",
+      "jobTitle": null,
+      "mobile": "+14085550166",
+      "phone": "+14085550167",
+      "fax": null,
+      "email": "olivia.bennett@example.com",
+      "website": "https://www.example.com/kestrel",
+      "address": "500 Union Avenue, San Jose, CA 95126"
+    }
+  },
+  {
+    "id": "TC14",
+    "scenario": "中文-事业单位-无手机",
+    "raw_text": "市城市规划研究院\n罗建国\n高级工程师\nT 0731-0000 2727\nF 0731-0000 2828\nluo.jianguo@example.cn\n长沙市岳麓区岳麓大道 0000 号 规划大厦 9 层",
+    "ground_truth": {
+      "name": "罗建国",
+      "company": "市城市规划研究院",
+      "jobTitle": "高级工程师",
+      "mobile": null,
+      "phone": "073100002727",
+      "fax": "073100002828",
+      "email": "luo.jianguo@example.cn",
+      "website": null,
+      "address": "长沙市岳麓区岳麓大道 0000 号 规划大厦 9 层"
+    }
+  },
+  {
+    "id": "TC15",
+    "scenario": "中英双语-教育行业",
+    "raw_text": "白鹭教育科技\nEgret Education Technology\n温以宁 Wen Yining\n教研负责人 / Head of Curriculum\nM 135 0000 2929\nT 020-0000 3030\nyining.wen@example.com\nwww.example.com/egret\n广州市天河区珠江新城华夏路 0000 号 1601",
+    "ground_truth": {
+      "name": "温以宁 Wen Yining",
+      "company": "白鹭教育科技",
+      "jobTitle": "教研负责人 / Head of Curriculum",
+      "mobile": "13500002929",
+      "phone": "02000003030",
+      "fax": null,
+      "email": "yining.wen@example.com",
+      "website": "https://www.example.com/egret",
+      "address": "广州市天河区珠江新城华夏路 0000 号 1601"
+    }
+  },
+  {
+    "id": "TC16",
+    "scenario": "英文-创意行业-单行堆叠",
+    "raw_text": "Fold & Field · Alex Turner · Founder · alex@example.com · +44 7700 900123 · Unit 7, Tileyard Road, London N7 9AH",
+    "ground_truth": {
+      "name": "Alex Turner",
+      "company": "Fold & Field",
+      "jobTitle": "Founder",
+      "mobile": "+447700900123",
+      "phone": null,
+      "fax": null,
+      "email": "alex@example.com",
+      "website": null,
+      "address": "Unit 7, Tileyard Road, London N7 9AH"
+    }
+  },
+  {
+    "id": "TC17",
+    "scenario": "中文-餐饮-无邮箱无网站",
+    "raw_text": "满福楼餐饮管理有限公司\n赵小满\n门店经理\n手机 137 0000 3131\n电话 010-0000 3232\n北京市西城区前门大街 0000 号 满福楼 2 层",
+    "ground_truth": {
+      "name": "赵小满",
+      "company": "满福楼餐饮管理有限公司",
+      "jobTitle": "门店经理",
+      "mobile": "13700003131",
+      "phone": "01000003232",
+      "fax": null,
+      "email": null,
+      "website": null,
+      "address": "北京市西城区前门大街 0000 号 满福楼 2 层"
+    }
+  },
+  {
+    "id": "TC18",
+    "scenario": "中文-多座机+传真",
+    "raw_text": "恒锐精密制造（东莞）有限公司\n韩沐\n采购主管\nM 138 0000 3333\nT 0769-0000 3434 / 0769-0000 3636\nF 0769-0000 3535\nhan.mu@example.com\n东莞市长安镇振安路 0000 号 恒锐工业园 A 栋",
+    "ground_truth": {
+      "name": "韩沐",
+      "company": "恒锐精密制造（东莞）有限公司",
+      "jobTitle": "采购主管",
+      "mobile": "13800003333",
+      "phone": "076900003434 / 076900003636",
+      "fax": "076900003535",
+      "email": "han.mu@example.com",
+      "website": null,
+      "address": "东莞市长安镇振安路 0000 号 恒锐工业园 A 栋"
+    }
+  },
+  {
+    "id": "TC19",
+    "scenario": "英文-英国国际号码",
+    "raw_text": "Meridian Freight Ltd.\nCharlotte Hughes\nLogistics Coordinator\nMobile +44 7700 900456\nTel 020 0000 0789\ncharlotte.hughes@example.co.uk\nwww.example.co.uk/meridian\n3 Trinity Buoy Wharf, London E14 0JY",
+    "ground_truth": {
+      "name": "Charlotte Hughes",
+      "company": "Meridian Freight Ltd.",
+      "jobTitle": "Logistics Coordinator",
+      "mobile": "+447700900456",
+      "phone": "02000000789",
+      "fax": null,
+      "email": "charlotte.hughes@example.co.uk",
+      "website": "https://www.example.co.uk/meridian",
+      "address": "3 Trinity Buoy Wharf, London E14 0JY"
+    }
+  },
+  {
+    "id": "TC20",
+    "scenario": "中文-医院-多职称",
+    "raw_text": "仁和医院\n邵怀瑾\n主任医师 / 教授\nM 139 0000 3737\nT 027-0000 3838\nF 027-0000 3939\nshao.huaijin@example.com\n武汉市武昌区解放路 0000 号 仁和医院 门诊楼 12 层",
+    "ground_truth": {
+      "name": "邵怀瑾",
+      "company": "仁和医院",
+      "jobTitle": "主任医师 / 教授",
+      "mobile": "13900003737",
+      "phone": "02700003838",
+      "fax": "02700003939",
+      "email": "shao.huaijin@example.com",
+      "website": null,
+      "address": "武汉市武昌区解放路 0000 号 仁和医院 门诊楼 12 层"
+    }
+  },
+  {
+    "id": "TC21",
+    "scenario": "中英双语-仅邮箱与网站（无电话无地址）",
+    "raw_text": "黎岸工作室\nLi'an Studio\n方黎 Fang Li\n独立插画师 Illustrator\nfangli@example.com\nwww.example.com/lian",
+    "ground_truth": {
+      "name": "方黎 Fang Li",
+      "company": "黎岸工作室",
+      "jobTitle": "独立插画师 / Illustrator",
+      "mobile": null,
+      "phone": null,
+      "fax": null,
+      "email": "fangli@example.com",
+      "website": "https://www.example.com/lian",
+      "address": null
+    }
+  },
+  {
+    "id": "TC22",
+    "scenario": "英文-姓名后缀+三号码",
+    "raw_text": "Pike & Rowe LLP\nJonathan Pike Jr.\nPartner\n+1 212 555 0188\nT +1 212 555 0199\nF +1 212 555 0200\njonathan.pike@example.com\nwww.example.com/pikerowe\n250 Park Avenue, 17th Floor, New York, NY 10177",
+    "ground_truth": {
+      "name": "Jonathan Pike Jr.",
+      "company": "Pike & Rowe LLP",
+      "jobTitle": "Partner",
+      "mobile": "+12125550188",
+      "phone": "+12125550199",
+      "fax": "+12125550200",
+      "email": "jonathan.pike@example.com",
+      "website": "https://www.example.com/pikerowe",
+      "address": "250 Park Avenue, 17th Floor, New York, NY 10177"
+    }
+  },
+  {
+    "id": "TC23",
+    "scenario": "中文-复姓",
+    "raw_text": "澜图地理信息科技有限公司\n欧阳澜\n项目经理\nM 135 0000 4040\nT 023-0000 4141\nouyang.lan@example.com\nwww.example.com/lantu\n重庆市渝北区龙兴大道 0000 号 3 栋 8 层",
+    "ground_truth": {
+      "name": "欧阳澜",
+      "company": "澜图地理信息科技有限公司",
+      "jobTitle": "项目经理",
+      "mobile": "13500004040",
+      "phone": "02300004141",
+      "fax": null,
+      "email": "ouyang.lan@example.com",
+      "website": "https://www.example.com/lantu",
+      "address": "重庆市渝北区龙兴大道 0000 号 3 栋 8 层"
+    }
+  },
+  {
+    "id": "TC24",
+    "scenario": "中英双语-多行复杂地址",
+    "raw_text": "森屿生活\n白露 Bai Lu\n品牌主理人 Brand Director\nM 136 0000 4242\nT 0571-0000 4343\nbai.lu@example.com\nwww.example.com/senyu\n浙江省杭州市西湖区文三路 0000 号\n创意大厦 A 座 12 楼 1208 室",
+    "ground_truth": {
+      "name": "白露 Bai Lu",
+      "company": "森屿生活",
+      "jobTitle": "品牌主理人 / Brand Director",
+      "mobile": "13600004242",
+      "phone": "057100004343",
+      "fax": null,
+      "email": "bai.lu@example.com",
+      "website": "https://www.example.com/senyu",
+      "address": "浙江省杭州市西湖区文三路 0000 号创意大厦 A 座 12 楼 1208 室"
+    }
+  },
+  {
+    "id": "TC25",
+    "scenario": "英文-公司名含 & 与姓名含 '",
+    "raw_text": "Brightline Ventures LLC\nGrace O'Donnell\nPrincipal\n+1 310 555 0155\nT +1 310 555 0166\ngrace.odonnell@example.com\nwww.example.com/brightline\n1 Market Street, Suite 3600, San Francisco, CA 94105",
+    "ground_truth": {
+      "name": "Grace O'Donnell",
+      "company": "Brightline Ventures LLC",
+      "jobTitle": "Principal",
+      "mobile": "+13105550155",
+      "phone": "+13105550166",
+      "fax": null,
+      "email": "grace.odonnell@example.com",
+      "website": "https://www.example.com/brightline",
+      "address": "1 Market Street, Suite 3600, San Francisco, CA 94105"
+    }
+  },
+  {
+    "id": "TC26",
+    "scenario": "中文-互联网行业-无邮箱",
+    "raw_text": "无界互动（北京）科技有限公司\n郑执\n技术负责人\nM 137 0000 4444\nT 010-0000 4545\nwww.example.com/wujie\n北京市海淀区中关村大街 0000 号 1 号楼 15 层",
+    "ground_truth": {
+      "name": "郑执",
+      "company": "无界互动（北京）科技有限公司",
+      "jobTitle": "技术负责人",
+      "mobile": "13700004444",
+      "phone": "01000004545",
+      "fax": null,
+      "email": null,
+      "website": "https://www.example.com/wujie",
+      "address": "北京市海淀区中关村大街 0000 号 1 号楼 15 层"
+    }
+  },
+  {
+    "id": "TC27",
+    "scenario": "中英双语-邮箱含下划线与数字",
+    "raw_text": "潮汐音乐\nTidal Music\n许星野 Xu Xingye\n艺人经纪 Artist Manager\nM 138 0000 4646\nT 021-0000 4747\nxingye_xu2024@example.com\nwww.example.com/tidal\n上海市徐汇区衡山路 0000 号 4 楼",
+    "ground_truth": {
+      "name": "许星野 Xu Xingye",
+      "company": "潮汐音乐",
+      "jobTitle": "艺人经纪 / Artist Manager",
+      "mobile": "13800004646",
+      "phone": "02100004747",
+      "fax": null,
+      "email": "xingye_xu2024@example.com",
+      "website": "https://www.example.com/tidal",
+      "address": "上海市徐汇区衡山路 0000 号 4 楼"
+    }
+  },
+  {
+    "id": "TC28",
+    "scenario": "英文-无地址",
+    "raw_text": "Larkin & Co.\nNoah Feldman\nSales Director\n+1 415 555 0177\nT +1 415 555 0188\nnoah.feldman@example.com\nwww.example.com/larkin",
+    "ground_truth": {
+      "name": "Noah Feldman",
+      "company": "Larkin & Co.",
+      "jobTitle": "Sales Director",
+      "mobile": "+14155550177",
+      "phone": "+14155550188",
+      "fax": null,
+      "email": "noah.feldman@example.com",
+      "website": "https://www.example.com/larkin",
+      "address": null
+    }
+  },
+  {
+    "id": "TC29",
+    "scenario": "中文-全字段金样本",
+    "raw_text": "天工智造（苏州）有限公司\n傅明远\n总经理\nM 139 0000 4848\nT 0512-0000 4949\nF 0512-0000 5050\nfu.mingyuan@example.com\nwww.example.com/tiangong\n苏州市工业园区星湖街 0000 号 天工大厦 6 层",
+    "ground_truth": {
+      "name": "傅明远",
+      "company": "天工智造（苏州）有限公司",
+      "jobTitle": "总经理",
+      "mobile": "13900004848",
+      "phone": "051200004949",
+      "fax": "051200005050",
+      "email": "fu.mingyuan@example.com",
+      "website": "https://www.example.com/tiangong",
+      "address": "苏州市工业园区星湖街 0000 号 天工大厦 6 层"
+    }
+  },
+  {
+    "id": "TC30",
+    "scenario": "英文-扫描噪声与重复行",
+    "raw_text": "Cobalt Ridge Inc. | Denver, CO\nVP Engineering\nEthan Cole\nMobile: +1 303 555 0121\nDirect: +1 303 555 0122\nethan.cole@example.com\nhttps://www.example.com/cobaltridge\n4100 E 2nd Avenue, Denver, CO 80220\nScanned 2024-11-02  ·  CONFIDENTIAL\nCobalt Ridge Inc. | Building the future",
+    "ground_truth": {
+      "name": "Ethan Cole",
+      "company": "Cobalt Ridge Inc.",
+      "jobTitle": "VP Engineering",
+      "mobile": "+13035550121",
+      "phone": "+13035550122",
+      "fax": null,
+      "email": "ethan.cole@example.com",
+      "website": "https://www.example.com/cobaltridge",
+      "address": "4100 E 2nd Avenue, Denver, CO 80220"
+    }
+  }
+]

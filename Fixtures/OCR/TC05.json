@@ -1,0 +1,97 @@
+{
+  "id": "TC05",
+  "scenario": "英文-标准美国号码",
+  "image": "Fixtures/Images/TC05.png",
+  "lines": [
+    {
+      "text": "Northbridge Analytics Ltd.",
+      "confidence": 0.895,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.3419,
+        0.053
+      ]
+    },
+    {
+      "text": "Daniel Whitfield",
+      "confidence": 0.916,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.1638,
+        0.043
+      ]
+    },
+    {
+      "text": "Head of Research",
+      "confidence": 0.988,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.145,
+        0.033
+      ]
+    },
+    {
+      "text": "+1 202 555 0143 (Mobile)",
+      "confidence": 0.988,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.2144,
+        0.033
+      ]
+    },
+    {
+      "text": "T 202.555.0177",
+      "confidence": 0.917,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.13,
+        0.033
+      ]
+    },
+    {
+      "text": "F 202.555.0188",
+      "confidence": 0.962,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.1294,
+        0.033
+      ]
+    },
+    {
+      "text": "Daniel.Whitfield@Example.com",
+      "confidence": 0.903,
+      "bbox": [
+        0.1437,
+        0.497,
+        0.2437,
+        0.033
+      ]
+    },
+    {
+      "text": "https://www.example.com",
+      "confidence": 0.913,
+      "bbox": [
+        0.1437,
+        0.454,
+        0.2062,
+        0.033
+      ]
+    },
+    {
+      "text": "1200 K Street NW, Suite 400, Washington, DC 20005",
+      "confidence": 0.906,
+      "bbox": [
+        0.1437,
+        0.411,
+        0.4325,
+        0.033
+      ]
+    }
+  ]
+}

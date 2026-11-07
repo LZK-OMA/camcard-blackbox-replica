@@ -1,0 +1,37 @@
+{
+  "id": "TC16",
+  "scenario": "英文-创意行业-单行堆叠",
+  "image": "Fixtures/Images/TC16.png",
+  "lines": [
+    {
+      "text": "Fold & Field · Alex Turner · Founder ·",
+      "confidence": 0.916,
+      "bbox": [
+        0.1398,
+        0.772,
+        0.5369,
+        0.053
+      ]
+    },
+    {
+      "text": "alex@example.com · +44 7700 900123 · Unit 7,",
+      "confidence": 0.988,
+      "bbox": [
+        0.1405,
+        0.7211,
+        0.6625,
+        0.053
+      ]
+    },
+    {
+      "text": "Tileyard Road, London N7 9AH",
+      "confidence": 0.944,
+      "bbox": [
+        0.1412,
+        0.6638,
+        0.4044,
+        0.053
+      ]
+    }
+  ]
+}

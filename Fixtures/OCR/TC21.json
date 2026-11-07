@@ -1,0 +1,67 @@
+{
+  "id": "TC21",
+  "scenario": "中英双语-仅邮箱与网站（无电话无地址）",
+  "image": "Fixtures/Images/TC21.png",
+  "lines": [
+    {
+      "text": "黎岸工作室",
+      "confidence": 0.901,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.1313,
+        0.053
+      ]
+    },
+    {
+      "text": "Li'an Studio",
+      "confidence": 0.944,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.1219,
+        0.043
+      ]
+    },
+    {
+      "text": "方黎 Fang Li",
+      "confidence": 0.963,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.0975,
+        0.033
+      ]
+    },
+    {
+      "text": "独立插画师 Illustrator",
+      "confidence": 0.903,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.1625,
+        0.033
+      ]
+    },
+    {
+      "text": "fangli@example.com",
+      "confidence": 0.943,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.1638,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/lian",
+      "confidence": 0.973,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.18,
+        0.033
+      ]
+    }
+  ]
+}

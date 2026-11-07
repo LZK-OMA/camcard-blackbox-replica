@@ -1,0 +1,97 @@
+{
+  "id": "TC15",
+  "scenario": "中英双语-教育行业",
+  "image": "Fixtures/Images/TC15.png",
+  "lines": [
+    {
+      "text": "白鹭教育科技",
+      "confidence": 0.901,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.1575,
+        0.053
+      ]
+    },
+    {
+      "text": "Egret Education Technology",
+      "confidence": 0.973,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.2981,
+        0.043
+      ]
+    },
+    {
+      "text": "温以宁 Wen Yining",
+      "confidence": 0.952,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.145,
+        0.033
+      ]
+    },
+    {
+      "text": "教研负责人 / Head of Curriculum",
+      "confidence": 0.948,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.2581,
+        0.033
+      ]
+    },
+    {
+      "text": "M 135 0000 2929",
+      "confidence": 0.961,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.1494,
+        0.033
+      ]
+    },
+    {
+      "text": "T 020-0000 3030",
+      "confidence": 0.981,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.1444,
+        0.033
+      ]
+    },
+    {
+      "text": "yining.wen@example.com",
+      "confidence": 0.889,
+      "bbox": [
+        0.1437,
+        0.497,
+        0.2019,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.com/egret",
+      "confidence": 0.938,
+      "bbox": [
+        0.1437,
+        0.454,
+        0.1956,
+        0.033
+      ]
+    },
+    {
+      "text": "广州市天河区珠江新城华夏路 0000 号 1601",
+      "confidence": 0.973,
+      "bbox": [
+        0.1437,
+        0.411,
+        0.3294,
+        0.033
+      ]
+    }
+  ]
+}

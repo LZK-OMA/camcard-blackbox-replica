@@ -1,0 +1,114 @@
+
+
+第一步（Session 1）：生成规格文档与测试数据集（最核心的过程资产）
+
+
+你是一名资深 iOS 架构师与软件工程专家。我正在完成一门“基于 SDD + TRAE 的名片全能王（CamCard）核心功能切片 100% 黑盒复刻”移动开发大作业。
+在写代码前，我必须先建立完整的规范资产。请为我产出以下两份核心交付物，使用标准 Markdown 格式：
+
+交付物一：完整的 spec.md 规格说明书
+1. 范围声明：明确仅复刻单机本地闭环（名片夹 -> 拍摄/导入 -> 区域检测校正 -> OCR -> 字段提取 -> 人工校正确认 -> 本地持久化 -> 详情/搜索/导出）。明确列出不包含云端同步、会员、CRM 等企业功能。
+2. 数据模型 Schema：BusinessCard 核心实体字段（id, originalImagePath, processedImagePath, name, company, jobTitle, mobile, phone, email, website, address, tags, notes, createdAt）。
+3. 状态机流转：定义扫描识别与人工校对（Human-in-the-Loop）状态（未开始、处理中、待人工确认、已保存、处理异常等）。
+4. Reference Test Suite 规格定义：详细定义 T01 至 T20 这 20 个测试场景的前置条件、操作步骤、预期断言。
+
+交付物二：包含 30 组虚拟名片的 ground_truth.json 数据集
+要求：
+- 严格虚拟，严禁使用真实个人敏感信息。
+- 覆盖多元场景：中文名片、英文名片、中英双语、多电话号码（包含 mobile/office/fax 区分）、字段缺失（特别要有缺少 website 或缺少 email 的案例）、复杂/异形版式。
+- 每条数据格式统一为：
+  {
+    "id": "TC01",
+    "scenario": "中英双语-带多电话",
+    "raw_text": "...", // 模拟名片 OCR 识别出的乱序原始文本
+    "ground_truth": {
+      "name": "...",
+      "company": "...",
+      "jobTitle": "...",
+      "mobile": "...",
+      "phone": "...",
+      "email": "...",
+      "website": null, // 缺失字段必须严格为 null
+      "address": "..."
+    }
+  }
+
+请直接输出上述两份文档的完整内容，语言规范严谨。
+
+第二步（Session 2）：生成数据层与本地持久化代码（防“杀后台丢数据”）
+
+
+你是一名资深 iOS 开发者。我们基于 SDD 规范，在 SwiftUI + SwiftData (或 CoreData) 下搭建“名片全能王切片”的数据与存储层。
+作业有一条红线硬性指标：App 进程被杀（Kill App / Cold Launch）重启后，原始图片、处理后的名片图片、结构化字段、标签（Tags）、备注（Notes）绝对不能丢失。
+
+请为我编写一套生产级、无 Bug、可以直接跑通的 Swift 数据层代码：
+1. 模型定义（BusinessCard.swift）：
+   - 包含 id, name, company, jobTitle, mobile, phone, email, website, address, tags([String]), notes, createdAt。
+   - 包含 originalImageFilename 和 processedImageFilename（注意：严禁将大图片直接以二进制 Blob 存入数据库，必须存入本地沙盒的文件名）。
+2. 本地图片持久化管理服务（CardImageFileManager.swift）：
+   - 提供根据 UUID 安全存入 Documents/Cards/ 目录的方法。
+   - 提供根据相对路径或文件名加载 UIImage 的方法。
+   - 确保应用沙盒路径在重启后即便 App Container Hash 变动也能稳定读写（使用相对路径）。
+3. 数据仓库层（CardRepository.swift）：
+   - 提供名片增、删、改、查、多字段模糊搜索（支持按 name/company/jobTitle/phone/email 过滤）、按标签（Tag）筛选的方法。
+4. 提供 MockCardDataHelper.swift：
+   - 预置 3 条初始虚拟名片数据，方便后续 UI 预览和单元测试。
+
+请给出完整 Swift 代码，并添加清晰注释。
+
+第三步（Session 3）：生成 OCR 文本解析器（必须防止 AI 幻觉脑补）
+
+
+你是一名专注自然语言处理与信息抽取的算法工程师。
+在名片全能王项目中，系统需要从 OCR 识别出的乱序文本（Raw Text）中抽取出 8 个标准联系人字段。
+作业特别强调：
+1. 概率性功能验收：AI 不允许“补全”名片上不存在的信息。如果原文没有网址，严禁推测出网址，必须返回 nil。
+2. 必须具备人名与公司混淆（如 Jordan Lee vs Lee Consulting）、多电话号码（区分 Mobile、Office、Fax）的识别能力。
+
+请为我实现一个纯本地的规则/正则增强版联系人解析器（BusinessCardFieldParser.swift）：
+1. 结构体定义：
+   struct ParsedCardResult {
+       var name: String?
+       var company: String?
+       var jobTitle: String?
+       var mobile: String?
+       var phone: String?
+       var email: String?
+       var website: String?
+       var address: String?
+       var rawText: String
+   }
+2. 实现核心解析方法：
+   static func parse(rawText: String) -> ParsedCardResult
+3. 解析逻辑要求：
+   - 使用严谨的正则匹配 Email、Website、常见手机与座机号（包含区分 Tel/Mobile/Fax 前缀标签）。
+   - 过滤掉无关噪声符号，提取公司（包含常见后缀：Co., Ltd., Inc., 科技, 大学, 咨询 等）与职位（Manager, Director, 教授, 工程师 等）。
+   - 严格守则：无法 100% 确认的字段返回 nil，宁缺毋滥，不得填充虚假数据。
+4. 为这个 Parser 编写一套基于 XCTest 的单元测试（BusinessCardFieldParserTests.swift）：
+   - 至少覆盖 5 组边界用例：包含中英双语、缺少 Website（验证是否为 nil）、包含 Fax 与 Mobile、名片中包含公司名类似人名的情况。
+
+第四步（Session 4）：生成 UI 页面代码（名片夹 + 人工校对页 + 详情与导出）
+
+
+你是一名精通 SwiftUI 的高级 iOS 工程师。请为复刻名片全能王的核心业务切片编写前端页面代码。
+流程严格遵循：
+名片夹首页（列表/空状态/搜索） -> 扫描入口/图片选择 -> 区域预览校正 -> [核心] 识别结果人工校对页（Human-in-the-Loop） -> 保存 -> 详情页（外部调用与导出）。
+
+请为我编写以下核心 Views 和 ViewModels：
+1. CardListView.swift：
+   - 包含搜索栏、标签选择器。
+   - 支持空状态（Empty State）友好提示与扫描按钮。
+   - 名片卡片列表（显示缩略图、姓名、公司、职位）。
+2. CardCorrectionView.swift（核心得分点：人工介入校对页）：
+   - 顶部/分栏显示裁切后的名片图片预览。
+   - 下方提供 8 个字段的可编辑文本输入框（TextField），用户可修改、删除、置空。
+   - 提供“保存”与“取消”按钮。点击保存后，才真正写入 Repository 并持久化。
+3. CardDetailView.swift：
+   - 查看名片大图、查看全部字段、标签与备注编辑。
+   - 外部联动：点击电话调起系统 openURL("tel://...")，点击邮件调起系统 openURL("mailto:...")，点击网址打开浏览器。
+   - 联系人导出：提供“导出 vCard / VCF”或者“写入系统通讯录”的动作按钮，并给出对应的 ContactExporter.swift 导出实现逻辑。
+
+代码使用 SwiftUI 原生架构，适配 iOS 17/18，交互简洁、状态可逆。
+
+
+

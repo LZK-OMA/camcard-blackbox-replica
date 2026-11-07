@@ -1,0 +1,107 @@
+{
+  "id": "TC30",
+  "scenario": "英文-扫描噪声与重复行",
+  "image": "Fixtures/Images/TC30.png",
+  "lines": [
+    {
+      "text": "Cobalt Ridge Inc. | Denver, CO",
+      "confidence": 0.943,
+      "bbox": [
+        0.1573,
+        0.7919,
+        0.3962,
+        0.053
+      ]
+    },
+    {
+      "text": "VP Engineering",
+      "confidence": 0.941,
+      "bbox": [
+        0.1548,
+        0.7462,
+        0.1613,
+        0.043
+      ]
+    },
+    {
+      "text": "Ethan Cole",
+      "confidence": 0.883,
+      "bbox": [
+        0.1526,
+        0.7034,
+        0.0875,
+        0.033
+      ]
+    },
+    {
+      "text": "Mobile: +1 303 555 0121",
+      "confidence": 0.89,
+      "bbox": [
+        0.1506,
+        0.6539,
+        0.2069,
+        0.033
+      ]
+    },
+    {
+      "text": "Direct: +1 303 555 0122",
+      "confidence": 0.924,
+      "bbox": [
+        0.1487,
+        0.6113,
+        0.2019,
+        0.033
+      ]
+    },
+    {
+      "text": "ethan.cole@example.com",
+      "confidence": 0.918,
+      "bbox": [
+        0.1468,
+        0.5684,
+        0.2006,
+        0.033
+      ]
+    },
+    {
+      "text": "https://www.example.com/cobaltridge",
+      "confidence": 0.987,
+      "bbox": [
+        0.1448,
+        0.5197,
+        0.3044,
+        0.033
+      ]
+    },
+    {
+      "text": "4100 E 2nd Avenue, Denver, CO 80220",
+      "confidence": 0.926,
+      "bbox": [
+        0.1429,
+        0.4759,
+        0.3212,
+        0.033
+      ]
+    },
+    {
+      "text": "Scanned 2024-11-02 · CONFIDENTIAL",
+      "confidence": 0.927,
+      "bbox": [
+        0.1411,
+        0.4329,
+        0.3231,
+        0.033
+      ]
+    },
+    {
+      "text": "Cobalt Ridge Inc. | Building the future",
+      "confidence": 0.963,
+      "bbox": [
+        0.1392,
+        0.391,
+        0.305,
+        0.033
+      ]
+    }
+  ]
+}

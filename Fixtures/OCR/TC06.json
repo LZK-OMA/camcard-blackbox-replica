@@ -1,0 +1,77 @@
+{
+  "id": "TC06",
+  "scenario": "英文-无手机（仅办公电话）",
+  "image": "Fixtures/Images/TC06.png",
+  "lines": [
+    {
+      "text": "Halcyon Design Studio",
+      "confidence": 0.894,
+      "bbox": [
+        0.1437,
+        0.775,
+        0.2938,
+        0.053
+      ]
+    },
+    {
+      "text": "Emily Carr",
+      "confidence": 0.892,
+      "bbox": [
+        0.1437,
+        0.716,
+        0.11,
+        0.043
+      ]
+    },
+    {
+      "text": "Creative Director",
+      "confidence": 0.917,
+      "bbox": [
+        0.1437,
+        0.669,
+        0.1369,
+        0.033
+      ]
+    },
+    {
+      "text": "T: 020 5550 0182",
+      "confidence": 0.959,
+      "bbox": [
+        0.1437,
+        0.626,
+        0.1481,
+        0.033
+      ]
+    },
+    {
+      "text": "emily.carr@example.co.uk",
+      "confidence": 0.909,
+      "bbox": [
+        0.1437,
+        0.583,
+        0.2044,
+        0.033
+      ]
+    },
+    {
+      "text": "www.example.co.uk",
+      "confidence": 0.933,
+      "bbox": [
+        0.1437,
+        0.54,
+        0.1537,
+        0.033
+      ]
+    },
+    {
+      "text": "14 Camden Passage, London N1 8EA",
+      "confidence": 0.961,
+      "bbox": [
+        0.1437,
+        0.497,
+        0.3044,
+        0.033
+      ]
+    }
+  ]
+}
